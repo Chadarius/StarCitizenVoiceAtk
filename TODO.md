@@ -4,7 +4,7 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 
 ### Todo
 
-- [ ] Create separate VAP files for each macro
+- [ ] Create separate VAP files for each macro (or group of dependant macros)
 - [ ] Create "Hail ATC and Request Landing" macros video
 - [ ] Create "Quck Sell" macro video
 - [ ] Create "Enhance/Dark vision" macro video
