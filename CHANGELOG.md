@@ -19,14 +19,32 @@ Planned upgrade notes
 Planned upgrade notes
  
 ### Added
- 
+
 ### Changed
  
 ### Fixed
 
-## [v0.1.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.1.1.zip) - 2022-11-09
+## [v0.2.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.2.0.zip) - 2022-11-09
  
-Planned upgrade notes
+### Added
+- Separate VAP files for macros or groups of related macros
+  - FOIP
+  - Inventory and Selling
+  - Mobiglass - Maintenance
+  - Navigation
+  - Quick Reference
+  - ReShade
+  - Scanning
+  - Takeoff and Landing
+  - Utility
+
+### Changed
+- Updated ASMBL Astra profile categories
+- Spilt "Restock and Refuel" macro into separate "Restock" and "Refuel" macros. Added both new macros to "Full Maintenance" macro. 
+
+### Fixed
+
+## [v0.1.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.1.1.zip) - 2022-11-09
  
 ### Added
  
