@@ -1,9 +1,8 @@
 # StarCitizenVoiceAtk
-My custom Voice Attack macros for Star Citizen in text form. 
+My custom Voice Attack macros with HCS Voice Pack ASTRA for Star Citizen
 
 Install Voice Attack. https://voiceattack.com/
 Install the ASTRA HCS Voice Pack. https://www.hcsvoicepacks.com/products/a-s-t-r-a-star-citizen?variant=20772219268
-
 
 I created a new profile named "ASML Astra". Under Options I set "Include commands from other profiles:" to "HCS - Event Horizon (SC) beta". This is the Star Citizen ASTRA pack from HCS Voice Packs. Many of my custom macros use ASTRA commands. 
 
@@ -13,4 +12,9 @@ You can download my entire [ASMBL Astra vap file here](https://github.com/Chadar
 
 Once you import the commands into your own profile you may change or edit them as you see fit. After you have imported the commands into your own profile you need to setup the HCS Voice Pack profile to reference your custom command profile. Under Options set "Include commands from other profiles:" to "ASMBL Astra" or whatever you call your custom Star Citizen profile. This will ensure that your custom commands will be included when you load your HCS Voice Pack.
 
+## Youtube Videos
+[Full Playlist](https://www.youtube.com/playlist?list=PLLGqQtzIC_6UU3SBzDPpsBaCvRX5lBHH2)
 
+[VoiceAttack & HCS Voice Packs: Setup & Configure AI Name](https://youtu.be/-szWhNXKCDA)
+
+[VoiceAttach & HCS Voice Packs: Custom Macros Howto](https://youtu.be/o29V3e6kfxk)
