@@ -19,7 +19,7 @@ Check "Override listening if my spoken command begins with:" and set a command w
 
 ## Download All the Commands
 
-You can download my entire [ASMBL Astra vap file here](https://github.com/Chadarius/StarCitizenVoiceAtk/raw/main/ASMBL%20Astra-Profile.vap). I make no guarentees that it will work properly for you. Any command that relies on mouse coordinates may need to be changed if you use any resolution other than 1920x1080. Additionally you may have to change paths to certain programs if you want to use commands that can restart things like Joystick Gremlin and OpenTrack.
+You can download the latest [VoiceAttack Macros here](https://github.com/Chadarius/StarCitizenVoiceAtk/releases/latest). it may not work properly out of the box for you. Any command that relies on mouse coordinates may need to be changed if you use any resolution other than 1920x1080. Additionally you may have to change paths to certain programs if you want to use commands that can restart things like Joystick Gremlin and OpenTrack.
 
 Once you import the commands into your own profile you may change or edit them as you see fit. After you have imported the commands into your own profile you need to setup the HCS Voice Pack profile to reference your custom command profile. Under Options set "Include commands from other profiles:" to "ASMBL Astra" or whatever you call your custom Star Citizen profile. This will ensure that your custom commands will be included when you load your HCS Voice Pack.
 
