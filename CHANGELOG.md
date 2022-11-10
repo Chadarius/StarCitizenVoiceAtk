@@ -15,8 +15,15 @@ Planned upgrade notes
 --->
 
 ## [Unreleased] - 2022-11-09
- 
-Planned upgrade notes
+- Install reshade with [this video from Fist and Jawa](https://www.youtube.com/watch?v=o5Yycn_nYUU)
+- Reshade Overlay Ctrl-Home
+- Reshade Effect toggle Alt-Home - Toggle Reshade
+- Reshade Previous preset Alt-PgUp - Pervious preset
+- Reshade Next preset Alt-PgDn - Next preset
+- Reshade default hotkey Alt-Ctrl-Home - Default vision
+- Reshade NightVision hotkey Alt-Ctrl-End - Night Vision
+- Reshade Infra-Red hotkey Alt-Ctrl-PgUp - Infrared vision
+- Reshade LyriaMining hotkey Alt-Ctrl-PgDn - Sun Shield/Shade or Mining vision
  
 ### Added
 
