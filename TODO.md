@@ -4,10 +4,8 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 
 ### Todo
 
-- [ ] Create separate VAP files for each macro (or group of dependant macros)
 - [ ] Create "Hail ATC and Request Landing" macros video
 - [ ] Create "Quck Sell" macro video
-- [ ] Create "Enhance/Dark vision" macro video
 - [ ] Create "FOIP/headtracking" macro video
 - [ ] Create "Damage Report and Maintenance" macros video
 - [ ] Create "Flight mode" macros video
@@ -49,10 +47,10 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 
 ### In Progress
 
-- [ ] Work on Github Repo [JIRA-345]  
-
 ### Done ✓
 
+- [X] Create "Reshade" macro video
+- [X] Create separate VAP files for each macro (or group of dependant macros)
 - [x] Upload "ASML Astra.vap"
 - [x] Create readme.md
 - [x] [Create "VoiceAttack & HCS Voice Packs: Setup & Configure AI Name" video](https://youtu.be/-szWhNXKCDA)

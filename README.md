@@ -19,13 +19,18 @@ Check "Override listening if my spoken command begins with:" and set a command w
 
 ## Download All the Commands
 
-You can download the latest [VoiceAttack Macros here](https://github.com/Chadarius/StarCitizenVoiceAtk/releases/latest). it may not work properly out of the box for you. Any command that relies on mouse coordinates may need to be changed if you use any resolution other than 1920x1080. Additionally you may have to change paths to certain programs if you want to use commands that can restart things like Joystick Gremlin and OpenTrack.
+You can download the latest [VoiceAttack Macros here](https://github.com/Chadarius/StarCitizenVoiceAtk/releases/latest). The "ASMBL Astra-Profile.vap" contains all the macros. But I've also broken the sections up into individual VAP files just so it is easy to see what may have changed. 
 
-Once you import the commands into your own profile you may change or edit them as you see fit. After you have imported the commands into your own profile you need to setup the HCS Voice Pack profile to reference your custom command profile. Under Options set "Include commands from other profiles:" to "ASMBL Astra" or whatever you call your custom Star Citizen profile. This will ensure that your custom commands will be included when you load your HCS Voice Pack.
+Macros may not work properly out of the box. Any command that relies on mouse coordinates may need to be changed if you use any resolution other than 1920x1080. Additionally you may have to change paths to certain programs if you want to use commands that can restart things like Joystick Gremlin and OpenTrack.Once you import the commands into your own profile you may change or edit them as you see fit. 
+
+After you have imported the commands into your own custom profile you need to setup the HCS Voice Pack profile to reference your custom profile. Under Options set "Include commands from other profiles:" to "ASMBL Astra" or whatever you call your custom Star Citizen profile. This will ensure that your custom commands will be included when you load your HCS Voice Pack.
 
 ## Youtube Videos
-[Full Playlist](https://www.youtube.com/playlist?list=PLLGqQtzIC_6UU3SBzDPpsBaCvRX5lBHH2)
+  - [Full Playlist](https://www.youtube.com/playlist?list=PLLGqQtzIC_6UU3SBzDPpsBaCvRX5lBHH2)
 
-[VoiceAttack & HCS Voice Packs: Setup & Configure AI Name](https://youtu.be/-szWhNXKCDA)
+  - [VoiceAttack & HCS Voice Packs: Setup & Configure AI Name](https://youtu.be/-szWhNXKCDA)
 
-[VoiceAttach & HCS Voice Packs: Custom Macros Howto](https://youtu.be/o29V3e6kfxk)
+  - [VoiceAttack & HCS Voice Packs: Custom Macros Howto](https://youtu.be/o29V3e6kfxk)
+
+  - [VoiceAttack & HCS Voice Packs: Reshade Macros](https://youtu.be/JaAppKI9Ee4)
+
