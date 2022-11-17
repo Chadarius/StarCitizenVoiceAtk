@@ -26,8 +26,11 @@ Macros may not work properly out of the box. Any command that relies on mouse co
 After you have imported the commands into your own custom profile you need to setup the HCS Voice Pack profile to reference your custom profile. Under Options set "Include commands from other profiles:" to "ASMBL Astra" or whatever you call your custom Star Citizen profile. This will ensure that your custom commands will be included when you load your HCS Voice Pack.
 
 ## Youtube Videos
-[Full Playlist](https://www.youtube.com/playlist?list=PLLGqQtzIC_6UU3SBzDPpsBaCvRX5lBHH2)
+  - [Full Playlist](https://www.youtube.com/playlist?list=PLLGqQtzIC_6UU3SBzDPpsBaCvRX5lBHH2)
 
-[VoiceAttack & HCS Voice Packs: Setup & Configure AI Name](https://youtu.be/-szWhNXKCDA)
+  - [VoiceAttack & HCS Voice Packs: Setup & Configure AI Name](https://youtu.be/-szWhNXKCDA)
 
-[VoiceAttach & HCS Voice Packs: Custom Macros Howto](https://youtu.be/o29V3e6kfxk)
+  - [VoiceAttack & HCS Voice Packs: Custom Macros Howto](https://youtu.be/o29V3e6kfxk)
+
+  - [VoiceAttack & HCS Voice Packs: Reshade Macros](https://youtu.be/JaAppKI9Ee4)
+

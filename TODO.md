@@ -6,7 +6,6 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 
 - [ ] Create "Hail ATC and Request Landing" macros video
 - [ ] Create "Quck Sell" macro video
-- [ ] Create "Enhance/Dark vision" macro video
 - [ ] Create "FOIP/headtracking" macro video
 - [ ] Create "Damage Report and Maintenance" macros video
 - [ ] Create "Flight mode" macros video
@@ -50,6 +49,7 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 
 ### Done ✓
 
+- [X] Create "Reshade" macro video
 - [X] Create separate VAP files for each macro (or group of dependant macros)
 - [x] Upload "ASML Astra.vap"
 - [x] Create readme.md
