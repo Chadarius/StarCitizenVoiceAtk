@@ -13,12 +13,16 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.3.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.3.1.zip) - 2022-11-20
+ 
+### Fixed
+  - Fixed [Reshade keyboard shortcuts aren't reliable](https://github.com/Chadarius/StarCitizenVoiceAtk/issues/2). Set ReShade macros to use "Send command to this target: Active Window" to fix the issue.
 
 ## [v0.3.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.3.0.zip) - 2022-11-15
 
 ### Added
   - Included "star citizen voice attack quick reference guide.ods" (Libre Office Calc file) and a PDF
-- ReShade Macros
+  - ReShade Macros
   - Install reshade with [this video from Fist and Jawa](https://www.youtube.com/watch?v=o5Yycn_nYUU)
   - Reshade Overlay Ctrl-Home
   - Reshade Effect toggle Alt-Home - Toggle Reshade
