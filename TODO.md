@@ -32,21 +32,21 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
   - [ ] Reset Joysticks (Joystick Gremlin)
   - [ ] Reset OpenTrack
   - [ ] stop/cancel macro/macros
-- [ ] Create "Stanton Navigation" macros
-  - [ ] Clear nav point
-  - [ ] Open local system
-  - [ ] Hurston
-    - [ ] moons
-  - [ ] ArcCorp
-    - [ ] moons
-  - [ ] Grimhex
-    - [ ] moons
-  - [ ] Microtech
-    - [ ] moons
-  - [ ] Lagrange points
+
 
 ### In Progress
-
+- [ ] Create "Stanton Navigation" macros
+  - [X] Clear nav point
+  - [ ] Open local system
+  - [X] Hurston
+    - [X] moons
+  - [X] ArcCorp
+    - [X] moons
+  - [X] Grimhex
+    - [X] moons
+  - [X] Microtech
+    - [X] moons
+  - [ ] Lagrange points
 ### Done ✓
 
 - [X] Create "Reshade" macro video
