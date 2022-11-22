@@ -1,5 +1,5 @@
 # StarCitizenVoiceAtk
-My custom Voice Attack macros with HCS Voice Pack ASTRA for Star Citizen
+My custom VoiceAttack macros with HCS Voice Pack ASTRA for Star Citizen
 
 [Install Voice Attack](https://voiceattack.com/)
 
