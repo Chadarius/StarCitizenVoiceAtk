@@ -13,6 +13,36 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.4.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.0.zip) - YYYY-MM-DD
+ 
+Planned upgrade notes
+ 
+### Added
+- Mobiglass - Navigation Mode
+  - Clear Route
+  - Navigate to ArcCorp
+    - Navigate to Lyria
+    - Navigate to Wala
+  - Navigate to [Arc-L1] Wide Forest Station
+  - Navigate to [CRU-L1] Ambitious Dream Station
+  - Navigate to Crusader
+    - Navigate to Cellin
+    - Navigate to Daymar
+    - Navigate to Yela
+  - Navigate to Hurston
+    - Navigate to Aberdeen
+    - Navigate to Arial
+    - Navigate to Ita
+    - Navigate to Magda
+  - Navigate to microTech
+    - Navigate to Calliope
+    - Navigate to Clio
+    - Navigate to Euterpe
+
+### Changed
+ 
+### Fixed
+
 ## [v0.3.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.3.1.zip) - 2022-11-20
  
 ### Fixed
