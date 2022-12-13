@@ -13,10 +13,6 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
   - [ ] Joystick quick reference
   - [ ] Keyboard quick reference
   - [ ] VoiceAttack quick reference
-- [ ] Create "Scanning" macros video
-  - [ ] Ping 360
-  - [ ] Ping Forward
-  - [ ] Ping detail/narrow/scan
 - [ ] Create "Takeoff and landing" macros video
   - [ ] Prepare for takeoff
     - [ ] One with VTOL and one with no VTOL?
@@ -38,10 +34,16 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 - [ ] Create "Stanton Navigation" macros
   - [X] Clear nav point
   - [ ] Open local system
+  - [X] Crusader
+    - [X] moons
+    - [X] CRU-L1 Ambitious Dream Station
+    - [X] CRU-L5 Modern Express Station
   - [X] Hurston
     - [X] moons
   - [X] ArcCorp
     - [X] moons
+    - [X] ARC-L1 Wide Forest Station
+    - [X] ARC-L3 Modern Express Station (with info on Aaron Halo Band 5 and 7)
   - [X] Grimhex
     - [X] moons
   - [X] Microtech
@@ -49,6 +51,10 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
   - [ ] Lagrange points
 ### Done ✓
 
+- [X] Create "Scanning" macros video
+  - [X] Ping 360
+  - [X] Ping Forward
+  - [X] Ping detail/narrow/scan
 - [X] Create "Reshade" macro video
 - [X] Create separate VAP files for each macro (or group of dependant macros)
 - [x] Upload "ASML Astra.vap"

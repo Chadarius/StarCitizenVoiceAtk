@@ -13,6 +13,16 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.4.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.1.zip) - 2022-12-12
+ 
+### Added
+- Added two more Lagrange point stations
+  - Navigate to ARC-L3 - Modern Express Station
+  - Navigate to CRU-L5 - Beautiful Glen Station
+
+### Changed
+- Updated Station commands to be able to use the station designation (e.g. CRU-L 1) or the name of the station (e.g. Ambitious Dream Station). This applies for ARC-L1, ARC-L3, CRU-L1, and CRU-L5)
+
 ## [v0.4.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.0.zip) - YYYY-MM-DD
  
 Planned upgrade notes
