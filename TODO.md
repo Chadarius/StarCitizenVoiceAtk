@@ -31,9 +31,10 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 
 
 ### In Progress
-- [ ] Create "Stanton Navigation" macros
+
+### Done ✓
+- [X] Create "Stanton Navigation" macros
   - [X] Clear nav point
-  - [ ] Open local system
   - [X] Crusader
     - [X] moons
     - [X] CRU-L1 Ambitious Dream Station
@@ -48,9 +49,7 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
     - [X] moons
   - [X] Microtech
     - [X] moons
-  - [ ] Lagrange points
-### Done ✓
-
+  - [X] Lagrange points
 - [X] Create "Scanning" macros video
   - [X] Ping 360
   - [X] Ping Forward

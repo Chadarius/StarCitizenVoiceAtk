@@ -13,6 +13,22 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.4.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.2.zip) - 2022-12-30
+ 
+### Added
+- Mobiglass - Navigation Mode
+  - Navigate to ARC-L2, ARC-L3, ARC-L4, ARC-L5
+  - Navigate to CRU-L2, CRU-L3, CRU-L4, CRU-L5
+  - Navigate to HUR-L1,HUR-L2, HUR-L3, HUR-L4, HUR-L5
+  - Navigate to MIC-L1, MIC-L2, MIC-L3, MIC-L4, MIC-L5
+
+### Changed
+ 
+### Fixed
+- Mobiglass - Navigation Mode
+  - Navigate to ARC-L1 - Change nav map mouse movement to use "Move using relative data (useful for 3D games)" with Animate movement, timing .250, steps 30, and ease movement unchecked. This gives 100% consistent movement to manipulate nav map as needed for certain locations to be able to be targeted properly. 
+  - Improved comments in the Nav macros. 
+
 ## [v0.4.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.1.zip) - 2022-12-12
  
 ### Added
