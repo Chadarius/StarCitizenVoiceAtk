@@ -13,6 +13,56 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.4.3](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.3.zip) - 2023-01-23
+ 
+Created Voice Attack macros to control Joystick Gremlin keyboard shortcuts that control vJoy 2 Z axis that sets the Speed Limiter. 
+ 
+### Added
+- Navigation
+  - "Set Impulse Power to 0-100" (or just "Impulse 0-100") where 0-100 is just the percentage you want it set at. This will set it to the nearest percent in 5 percent increments. 
+    - CTRL-minus speed control down 5%
+    - CTRL-plus speed control up 5%
+    - CTRL-zero speed control to 0
+  - Standard Impulse
+    - This sets the speed limiter to 15%. This is approximately the SCM speed for most ships. 
+  - Combat impulse
+    - This sets the speed limiter to 35%
+  - Half Impulse
+    - This sets the speed limiter to 50%
+  - Full Impulse
+    - This sets the speed limiter to 100%
+  - Full stop
+    - This sets the speed limiter to 0
+- Takeoff and Landing
+  - Cast off and head to Standard Orbit
+    - Runs cast off (reset power triangle, turns on engines), runs HCS VoicePack Launch (lifts off, gear up), and then runs Standard Orbit (sets max engine power, full impulse, and 10 second burn)
+    - Prepare for landing/Final approach
+      - Request landing, Reset power, standard impulse, Gear down
+- Combat
+  - Red Alert
+    - Reset power triangle, combat speed (35%) gimbles on
+  - Reset Gimbals
+    - Changes gimbal setting two times to set to gimbals off (will change in 3.18 when gimball controls are updated to work better)
+
+### Changed
+- Navigation
+  - Standard Flight
+    - Reset power triangle and set speed limiter to 15%
+  - Standard Orbit 
+    - Instructs to point ship to 90 degrees with 3 second count down. Then sets max engine power, full impulse, and 10 second burn. 
+- Takeoff and Landing
+  - Request landing/takeoff
+    - ALT-N (must setup in Star Citizen config). This will be the default in 3.18
+- Utility
+  - Display Info 0-4
+    - Sets console command "r_displayinfo" from 0-4
+  - Configure HOTASAS
+    - Runs "pp_rebindkeys X-55-56-LogiExtreme-HOTASAS" command in console 
+- Quick Reference Guides
+  - Open Voice Attack Quick Reference Guide
+  
+### Fixed
+
 ## [v0.4.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.2.zip) - 2022-12-30
  
 ### Added

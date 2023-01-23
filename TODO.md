@@ -8,7 +8,6 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 - [ ] Create "Quck Sell" macro video
 - [ ] Create "FOIP/headtracking" macro video
 - [ ] Create "Damage Report and Maintenance" macros video
-- [ ] Create "Flight mode" macros video
 - [ ] Create "Quick reference" macros video
   - [ ] Joystick quick reference
   - [ ] Keyboard quick reference
@@ -33,6 +32,7 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 ### In Progress
 
 ### Done ✓
+- [X] Create "Flight mode" macros video
 - [X] Create "Stanton Navigation" macros
   - [X] Clear nav point
   - [X] Crusader
