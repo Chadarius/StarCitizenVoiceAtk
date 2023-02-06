@@ -13,6 +13,17 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.4.4](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.4.zip) - 2023-02-06
+ 
+### Added
+- Advanced Camera System
+  - Cam/Camera [camera name]
+    - Camera names are rear left (1), rear (2), rear right (3), left (4), overhead (5), front left (7), front (8), and front right (9) 
+  - Cam/Camera Default
+  - Cam/Camera save [camera name]
+    - Camera names are rear left (1), rear (2), rear right (3), left (4), overhead (5), front left (7), front (8), and front right (9)
+  - Switch Cam/Camera (HCS Voice Pack command)
+
 ## [v0.4.3](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.3.zip) - 2023-01-23
  
 Created Voice Attack macros to control Joystick Gremlin keyboard shortcuts that control vJoy 2 Z axis that sets the Speed Limiter. 
