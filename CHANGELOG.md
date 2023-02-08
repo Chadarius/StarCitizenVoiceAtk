@@ -13,6 +13,11 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.4.5](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.5.zip) - 2023-02-08
+ 
+### Added
+- Performance Settings console macro
+
 ## [v0.4.4](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.4.zip) - 2023-02-06
  
 ### Added
