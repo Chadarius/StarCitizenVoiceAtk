@@ -13,6 +13,16 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.4.6](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.6.zip) - 2023-02-16
+
+Added new files for PTU 3.18. VAP files that end with "PTU 3.18".  
+
+### Added
+- Move Inventory [2-999] - Uses the new 3.18 shift click to move items between inventory containers
+
+### Changed
+- Mobiglass Navigation Mode - Updated all macros to adjust for interface changes in 3.18. The map interface has unexplainably changed so that all previous mouse click targets no longer work.  
+
 ## [v0.4.5](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.5.zip) - 2023-02-08
  
 ### Added
