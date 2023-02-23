@@ -36,6 +36,7 @@ If you decide to retarget everything for a new resolution you will need to set t
 Just in case you are interested, here is how the scaling math works. 
 
 NewMouseX = AsmblMouseX/AsmblOrgResX*AsmblNewResX + AsmblNewOffsetX
+
 NewMouseY = AsmblMouseY/AsmblOrgResY*AsmblNewResY + AsmblNewOffsetY
 
 Good luck! We are all probably going to need it! 

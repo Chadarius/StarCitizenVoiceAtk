@@ -13,6 +13,23 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.4.7](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.7.zip) - 2023-02-23
+ 
+Resolution Idependant Mouse Clicks are here! See the Readme.md for more information
+ 
+### Added
+- Function category
+  - AsmblMouseClick - resolution independant mouse click
+  - AsmblMouseDblClick - resolution independant mouse double click
+  - AsmblSetRoute - resolution independant mouse click on Set Route button
+  - AsmblClearRoute - resolution independant mouse click on Clear Route button
+- Assemble Initialize macro - Contains variables for new resolution targeting. Contains variables for any XY targets that are used in more than one macro. See readme.md for more details on how to use. 
+
+### Changed
+  - Mobiglass - Navigation Mode macros have all been updated to use the resolution independant mouse targeting functions
+  - Mobiglass - Maintenance macros have all been updated to use the resolution independant mouse targeting functions
+ 
+### Fixed
 ## [v0.4.6](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.6.zip) - 2023-02-16
 
 Added new files for PTU 3.18. VAP files that end with "PTU 3.18".  
