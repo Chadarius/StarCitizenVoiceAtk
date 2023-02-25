@@ -13,6 +13,19 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.4.8](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.8.zip) - 2023-02-25
+ 
+More 3.18 resolution independent macro updates and fixes
+ 
+### Added
+- AsmblMouseMove is a new function macro. It moves the mouse but not click anything. 
+
+### Changed
+- Euturpe and Clio nav macros have been updated to use the new AsmblMouseMove function
+ 
+### Fixed
+- Fixed Arial macro to target the correct moon. 
+
 ## [v0.4.7](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.7.zip) - 2023-02-23
  
 Resolution Idependant Mouse Clicks are here! See the Readme.md for more information
@@ -29,7 +42,7 @@ Resolution Idependant Mouse Clicks are here! See the Readme.md for more informat
   - Mobiglass - Navigation Mode macros have all been updated to use the resolution independant mouse targeting functions
   - Mobiglass - Maintenance macros have all been updated to use the resolution independant mouse targeting functions
  
-### Fixed
+
 ## [v0.4.6](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.6.zip) - 2023-02-16
 
 Added new files for PTU 3.18. VAP files that end with "PTU 3.18".  
