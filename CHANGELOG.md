@@ -13,6 +13,19 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v0.4.9](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.9.zip) - 2023-02-28
+ 
+Further refinement of the resolution independent macros for some of the Lagrange points
+ 
+### Changed
+
+I converted all of these to target the mouse movement coordinates using the resolution independent function AsmblMouseMove.
+
+- ARC-L1 Wide Forest Station - Updated mouse move target to use resolution independent calculations
+- CRU-L5 Beautiful Glen Station - Updated mouse move target to use resolution independent calculations
+- HUR-L3 Thundering Express Station - Updated mouse move target to use resolution independent calculations
+- HUR-L4 Melodic Fields Station - Updated mouse move target to use resolution independent calculations
+
 ## [v0.4.8](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.8.zip) - 2023-02-25
  
 More 3.18 resolution independent macro updates and fixes

@@ -43,6 +43,14 @@ NewMouseY = AsmblMouseY/AsmblOrgResY*AsmblNewResY + AsmblNewOffsetY
 
 Good luck! We are all probably going to need it! 
 
+### List of Lagrange Points That Require Mouse Dragging
+Most planetary and Lagrange systems can be easily zoomed in on by a mouse double-click. However sometimes the target of a moon or Lagrange point station cannot be selected without using the mouse to move or rotate the map. In these cases the mouse movements may or may not translate well between resolutions. 
+
+- ARC-L1 Wide Forest Station
+- CRU-L5 Beautiful Glen Station
+- HUR-L3 Thundering Express Station
+- HUR-L4 Melodic Fields Station
+
 ## Changing Paths
 You may have to change paths to certain programs if you want to use commands that can restart things like Joystick Gremlin and OpenTrack.Once you import the commands into your own profile you may change or edit them as you see fit. 
 
