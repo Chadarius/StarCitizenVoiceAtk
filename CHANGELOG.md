@@ -13,6 +13,20 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.18.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.18.0.zip) - 2023-03-08
+ 
+This is the 3.18 release. CIG plans on updating Live to 3.18 on March 9th, or soon after. So I've made this official release of my macros. I changed my versioning to match the version of Star Citizen to make things easier going forward. 
+
+This official release contains the resolution independent mouse macro functions. Check the readme, as it requires some user setup if you are playing with any other resolution besides 1920x1080. 
+ 
+### Added
+- Mic L1 Shallow Frontier Station: This station requires mouse zooming about 6 times to even see the station to select it. This is not even close to 100% accurate, so I've elected to just target the Lagrange point.
+
+### Changed
+ 
+### Fixed
+- I noticed that the Clear Route function was not working properly the first time the function was run. I added the Asmbl Init check to that function to fix the issue. 
+
 ## [v0.4.9](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.4.9.zip) - 2023-02-28
  
 Further refinement of the resolution independent macros for some of the Lagrange points
