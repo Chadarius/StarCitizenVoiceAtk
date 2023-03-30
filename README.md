@@ -10,10 +10,10 @@ If you have your own VoiceAttack macros, make sure you backup everything before 
 
 ### Download All the Commands
 
-You can download the latest [VoiceAttack Macros here](https://github.com/Chadarius/StarCitizenVoiceAtk/releases/latest). The "ASMBL Astra-Profile.vap" contains all the macros. But I've also broken the sections up into individual VAP files just so it is easy to see what may have changed. The "ASMBL Init.vap" is also required to use the resolution independent macros. I've also exported the commands seperately by category should you only want to update or use one of those instead. 
+You can download the latest [VoiceAttack Macros here](https://github.com/Chadarius/StarCitizenVoiceAtk/releases/latest). The "ASMBL Astra-Profile.vap" contains all the macros. The "ASMBL Init.vap" is also required to use the resolution independent macros. 
 
 ### Create New Profile
-First create a new profile to hold your custom macros for Star Citizen. I created a new profile named "ASMBL Astra". This is the Star Citizen pack from HCS Voice Packs. Some of my custom macros use HCS VoicePack commands. 
+First create a new profile to hold your custom macros for Star Citizen. I created a new profile named "ASMBL Astra". ASTRA is the Star Citizen pack from HCS Voice Packs. A few of my custom macros use HCS VoicePack commands. 
 
 Next create a second profile to hold the resolution independent initialization variables. I named mine "ASMBL Init".
 
@@ -30,15 +30,15 @@ Then select the "ASMBL Astra" profile. Under Options, you should set "Include co
 By doing this in both places you will be able to add, update, and test macros with the "ASMBL Astra" profile loaded. 
 
 ### Setup your AI Name
-I like to setup a code work to act as the "AI Name" for VoiceAttack. Its like saying "OK Google", "Alexa", or "Siri" to talk your phones/devices.
+I like to setup a code word to act as the "AI Name" for VoiceAttack. Its like saying "OK Google", "Alexa", or "Siri" to talk your phones/devices.
 
 Click the Options button on your main VoiceAttack Profile (if you are using HCS VoicePacks then it will be "HCS - Event Horizon (SC) Beta"). Check "Override listening if my spoken command begins with:" and set a command word. I use "Ava". You can use any word you want, but I suggest making it at least a two sylable easy to pronounce and understand word. This keeps your ship "AI" from accidently responding to conversations or things like the TV in the background. When you start Voice Attack, just tell it to "go to sleep" to stop listening except for anything following your command word. 
 
 ## Mouse targeting and Resolution
 
-Macros may not work properly out of the box. Any command that relies on mouse coordinates may need to be changed if you use any resolution other than 1920x1080. However, with 3.18, I've updated the macros to include some resolution independant capabilities. It will probably work OK for most Mobilglass targets like buttons, planets, and moons. Lagrange point stations are extremely tiny targets and may still not work well without tweaking the settings. 
+Macros may not work properly out of the box. Any command that relies on mouse coordinates may need to be changed if you use any resolution other than 1920x1080. However, with 3.18, I've updated the macros to include some resolution independant capabilities. It will probably work OK for most Mobilglass targets like buttons, planets, and moons. Lagrange point stations are extremely tiny targets and may still not work well without tweaking the settings. So far I have found that the targeting is working however.
 
-You must setup "ASMBL Astra-Profile.vap" and "ASMBL Init.vap" in your main profile's "Include commands from other profiles" setting. If you aren't importing all the commands you must include at least the "Functions.vap" and "ASMBL Init.vap" to use the resolution idependent mouse click functions. 
+You must setup "ASMBL Astra-Profile.vap" and "ASMBL Init.vap" in your main profile's "Include commands from other profiles" setting.  
 
 To scale up the mouse click locations for different application resolutions you will need to change the "AsmblNewResX" and "AsmblNewResY" variables in the "Assembl Initialize" macro to your current Star Citizen application window resolution (2560x1440, 3840x2160, etc...). It will work with any 16:9 resolution without further changes. However, if you have an ultra wide or multi-monitor setup you will need to add in offset values to get it to work properly. 
 

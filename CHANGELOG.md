@@ -13,6 +13,21 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.18.0.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.18.0.1.zip) - 2023-03-30
+ 
+### Added
+- AFK (Away From Keyboard) - Opens and closes Mobiglass every 10 minutes to stay logged in while you are AFK. Use the "stop macro" command to cancel out of AFK mode. 
+- Evasive Maneuvers/Get me out of here - Splits power to shields and engines. Sets speed to max. 
+
+### Changed
+- Removed Hail ATC command - Used old F11 comms method to request landings. Combined Hail ATC into newer ALT-N "Request Landing/Takeoff" command. 
+- Removed Reset Gimbals - 3.18 has changed the way the gimbals work. Using the G key or a joystick key toggles the gimbals on and off.  
+- Removed individual command category profiles. All commands are included in "ASMBL Astra-Profile.vap" and "ASMBL Init.vap"
+- Added "Battle Stations" to "Red Alert" macro
+
+### Fixed
+ - Added an extra half second pause for Full Maintenance as the Mobiglass screen can be slow to come up with the 3.18 server issues. 
+
 ## [a3.18.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.18.0.zip) - 2023-03-08
  
 This is the 3.18 release. CIG plans on updating Live to 3.18 on March 9th, or soon after. So I've made this official release of my macros. I changed my versioning to match the version of Star Citizen to make things easier going forward. 

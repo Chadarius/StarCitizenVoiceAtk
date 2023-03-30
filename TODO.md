@@ -4,8 +4,7 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 
 ### Todo
 
-- [ ] Create "Hail ATC and Request Landing" macros video
-- [ ] Create "Quck Sell" macro video
+
 - [ ] Create "FOIP/headtracking" macro video
 - [ ] Create "Damage Report and Maintenance" macros video
 - [ ] Create "Quick reference" macros video
@@ -32,6 +31,8 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 ### In Progress
 
 ### Done ✓
+- [X] Create "Hail ATC and Request Landing" macros video
+- [X] Create "Quck Sell" macro video
 - [X] Create "Flight mode" macros video
 - [X] Create "Stanton Navigation" macros
   - [X] Clear nav point
