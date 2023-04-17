@@ -65,6 +65,29 @@ Most planetary and Lagrange systems can be easily zoomed in on by a mouse double
 - HUR-L4 Melodic Fields Station
 - MIC-L1 Shallow Frontier Station (no reliable method to select the station with mouse zoom)
 
+## reShade
+[I'm using Fist and Jawa's reShade tutorial to setup reShade. Go check it out here](https://youtu.be/Y21B1t6AGHU). Once their setup is done come back here and setup the following keyboard shortcuts for reShade.
+
+### Settings Tab Shortcut Settings
+- ALT-Home - Overlay key
+
+- ALT-End - Effect toggle key
+
+- Alt-PgUp - Previous preset key
+
+- Alt-PgDn - Next preset key
+
+### Home Tab Shortcut Settings
+Right-click on each preset and set keyboard shortcut. Use the arrow icons or Alt-PgUp/PgDn to move to each preset.
+
+- CTRL-Home - 00-HDR_Plus_2 preset
+
+- CTRL-End - 01-NightVision02 preset
+
+- CTRL-PgUp - 02-Infrared2 preset
+
+- CTRL-PgDn - 03-Darken preset
+
 ## Changing Paths
 You may have to change paths to certain programs if you want to use commands that can restart things like Joystick Gremlin and OpenTrack.Once you import the commands into your own profile you may change or edit them as you see fit. 
 

@@ -13,6 +13,11 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.18.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.18.1.zip) - 2023-04-17
+ 
+### Changed
+- Updated macros for reShade 5.7.0. ReShade keyboard macros for CTRL-ALT-Home/End/PgUp/PgDn stopped working for me. I changed the macros to use just CTRL-Home/End/PgUp/PgDn. See the readme for how to setup reShade. 
+
 ## [a3.18.0.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.18.0.1.zip) - 2023-03-30
  
 ### Added
