@@ -13,6 +13,27 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.18.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.18.2.zip) - 2023-05-05
+ 
+### Added
+- Updated the Camera macros to show examples of other camera angles including internal ship cameras.
+  - Cam Cargo
+  - Cam Entry 1
+  - Cam Entry 2
+  - Cam Entry 3
+  - Cam Bay 1
+  - Cam Bay 2
+  - Cam Medical
+  - Cam Bridge
+- Updated Readme with the custom HCS Voice Packs commands I've added to the ASTRA pack. 
+
+### Changed
+- Updated "Prepare for takeoff" macro to have better timing so phrases don't overlap so much. 
+ 
+### Fixed
+- Fixed "Power up the ship" command in the "prepare for takeoff" macro. The "power up" command was a custom command I added in the HCS voicepack. "Power up the ship" is the default command in the HCS voice packs. I changed it so that it would use the default command. 
+
+
 ## [a3.18.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.18.1.zip) - 2023-04-17
  
 ### Changed

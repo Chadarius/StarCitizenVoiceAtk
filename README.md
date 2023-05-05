@@ -88,6 +88,38 @@ Right-click on each preset and set keyboard shortcut. Use the arrow icons or Alt
 
 - CTRL-PgDn - 03-Darken preset
 
+## HCS VoicePack Customizations
+Say "protocol override customize my settings" and click on the Voice Trigger Editor button. Expand Star Citizen and change the following Customized Triggers. I've added phrases that made more sense to me, especially lots of Star Trek and naval terms. 
+
+- Combat - Missile mode - [switch to;activate;engage;ready] [missile mode;missiles]
+
+- Combat - Close missile mode - [close;deactivate;disengage;exit] [missile mode;missiles]
+
+- Cpmms - Head Tracking reset - [Toggle;enable;disable] [foip; F O I P] [head tracking;]
+
+- Jump drive - Disengate Jump - [disengage;cancel] [jump;warp;quantum;ftl] [drive;] {TXT:hcsvt_OnMyMark}
+
+- Jump drive - Spool Quantum Jump - [Spool;activate;open;start] [jump;quantum;warp;ftl] [drive;mode;]
+
+- Jump drive - DeSpool Quantum Jump - [despool;deactivate;close;stop] [jump;quantum;warp;ftl] [drive;mode;];[jump;quantum;warp;ftl] [drive;mode;] [off]
+
+- Jump drive - Engage Jump - [despool;deactivate;close;stop] [jump;quantum;warp;ftl] [drive;mode;];[jump;quantum;warp;ftl] [drive;mode;] [off]
+
+- Misc - Lock ship doors - [lock;batten down] [the;] [doors;hatches]
+
+- Power Controls - Maxes shields - [All;maximize;max] power [to;] [shield; shields]; Shields up
+
+- Power Controls - Power Down - Power down [the ship;]
+
+- Power Controls - Power up [the ship;]
+
+- Engines - Match Target Velocity - Match [target;] [velocity;speed];match their [speed;velocity]
+
+- Take off & Landing - VTOL On - [Enable;switch to;engage;activate;turn on;] [vtol;v toll; vtol mode; v toll mode;hover; hover mode]
+
+- Take off & Landing - VTOL Off - [Disable;switch off;disengage;deactivate;turn off] [vtol;v toll; vtol mode; v toll mode;hover;hover mode]; [switch to normal flight]
+
+
 ## Changing Paths
 You may have to change paths to certain programs if you want to use commands that can restart things like Joystick Gremlin and OpenTrack.Once you import the commands into your own profile you may change or edit them as you see fit. 
 
