@@ -95,7 +95,7 @@ Say "protocol override customize my settings" and click on the Voice Trigger Edi
 
 - Combat - Close missile mode - [close;deactivate;disengage;exit] [missile mode;missiles]
 
-- Cpmms - Head Tracking reset - [Toggle;enable;disable] [foip; F O I P] [head tracking;]
+- Comms - Head Tracking reset - [Toggle;enable;disable] [foip; F O I P] [head tracking;]
 
 - Jump drive - Disengate Jump - [disengage;cancel] [jump;warp;quantum;ftl] [drive;] {TXT:hcsvt_OnMyMark}
 
@@ -107,7 +107,7 @@ Say "protocol override customize my settings" and click on the Voice Trigger Edi
 
 - Misc - Lock ship doors - [lock;batten down] [the;] [doors;hatches]
 
-- Power Controls - Maxes shields - [All;maximize;max] power [to;] [shield; shields]; Shields up
+- Power Controls - Max shields - [All;maximize;max] power [to;] [shield; shields]; Shields up
 
 - Power Controls - Power Down - Power down [the ship;]
 

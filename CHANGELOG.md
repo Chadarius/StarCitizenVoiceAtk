@@ -17,14 +17,15 @@ Planned upgrade notes
  
 ### Added
 - Updated the Camera macros to show examples of other camera angles including internal ship cameras.
-  - Cam Cargo
-  - Cam Entry 1
-  - Cam Entry 2
-  - Cam Entry 3
-  - Cam Bay 1
-  - Cam Bay 2
-  - Cam Medical
-  - Cam Bridge
+  - Cam 1; Rear Left; Cargo
+  - Cam 2; Rear; Entry 1
+  - Cam 3; Rear Right; Medical
+  - Cam 4; Left; Entry 2
+  - Cam 5; Overhead
+  - Cam 6; Right; Entry 3
+  - Cam 7; Front Left; Bay 1
+  - Cam 8; Front; Bridge
+  - Cam 9; Front Right; Bay 2
 - Updated Readme with the custom HCS Voice Packs commands I've added to the ASTRA pack. 
 
 ### Changed
