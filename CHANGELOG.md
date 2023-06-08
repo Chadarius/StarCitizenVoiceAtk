@@ -20,12 +20,20 @@ Added Voice Controls for all the main MobiGlass Buttons. Only Nav (F2) and Comms
 I may add more sub-buttons in the future. For now it is just the list below. 
  
 ### Added
-- Contracts Manager
-- Delphi
-- Journal
-- Mo Trader
-- Niknax
-- Vehicle Loadout Manager
+- Mobiglass Buttons
+  - Contracts Manager
+  - Delphi
+  - Journal
+  - Mo Trader
+  - Niknax
+  - Vehicle Loadout Manager
+- Functions
+  - CheckASMBLInit - checks if resolution idependant variables are loaded and loads them if they are not. Used to fix issue in Full Maintenance macro.
+
+### Fixed
+- Resolution Independant Issue
+  - Fixed issue where ASMBLInit was not being called for Full Maintenance Macro
+
 
 
 ## [a3.18.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.18.2.zip) - 2023-05-05
