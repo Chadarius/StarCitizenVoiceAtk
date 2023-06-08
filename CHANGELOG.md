@@ -13,6 +13,21 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.19.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.19.0.zip) - 2023-06-08
+ 
+Added Voice Controls for all the main MobiGlass Buttons. Only Nav (F2) and Comms (F11) have function key binds. Only my macros, thanks to my resolution independant tech, can handle the other Mobiglass buttons.
+
+I may add more sub-buttons in the future. For now it is just the list below. 
+ 
+### Added
+- Contracts Manager
+- Delphi
+- Journal
+- Mo Trader
+- Niknax
+- Vehicle Loadout Manager
+
+
 ## [a3.18.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.18.2.zip) - 2023-05-05
  
 ### Added
