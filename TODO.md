@@ -4,28 +4,27 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 
 ### Todo
 
-
+- [ ] Create Split Macro - Splits a stacked inventory item X times where x is 1-999 
 - [ ] Create "FOIP/headtracking" macro video
 - [ ] Create "Damage Report and Maintenance" macros video
 - [ ] Create "Quick reference" macros video
-  - [ ] Joystick quick reference
-  - [ ] Keyboard quick reference
-  - [ ] VoiceAttack quick reference
+  - [X] Joystick quick reference
+  - [X] Keyboard quick reference
+  - [X] VoiceAttack quick reference
 - [ ] Create "Takeoff and landing" macros video
-  - [ ] Prepare for takeoff
+  - [X] Prepare for takeoff
     - [ ] One with VTOL and one with no VTOL?
-  - [ ] Prepare for landing/final approach
+  - [X] Prepare for landing/final approach
     - [ ] One with VTOL and one with no VTOL?
-  - [ ] Secure the ship/baton down the hatches - engines off and max shields
-  - [ ] Cast off/unsecure the ship - engines on and balance power
+  - [X] Secure the ship/baton down the hatches - engines off and max shields
+  - [X] Cast off/unsecure the ship - engines on and balance power
 - [ ] Create "Console commands" macros video
-  - [ ] Quit/exit game
-  - [ ] Display info
-  - [ ] Display info off
+  - [X] Quit/exit game
+  - [X] Display info 0-4
 - [ ] Create "Utility" macros video
-  - [ ] Reset Joysticks (Joystick Gremlin)
-  - [ ] Reset OpenTrack
-  - [ ] stop/cancel macro/macros
+  - [X] Reset Joysticks (Joystick Gremlin)
+  - [#] Reset OpenTrack
+  - [X] stop/cancel macro/macros
 
 
 ### In Progress
