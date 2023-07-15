@@ -13,7 +13,7 @@ Planned upgrade notes
  
 ### Fixed
 --->
-## [a.3.19.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a.3.19.1.zip) - 2-23-07-15
+## [a.3.19.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a.3.19.1.zip) - 2023-07-15
  
 Added support for DCS-SRS AWACS Radio Channel Selection
  
