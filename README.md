@@ -119,6 +119,8 @@ Say "protocol override customize my settings" and click on the Voice Trigger Edi
 
 - Take off & Landing - VTOL Off - [Disable;switch off;disengage;deactivate;turn off] [vtol;v toll; vtol mode; v toll mode;hover;hover mode]; [switch to normal flight]
 
+## DCS-SRS AWACS Radio Channel Selection
+Say "Select Radio Channel 1-10" (or just "channel 1-10") and the AWACS Radio Channel of that number will be selected. This requires you to set the controls for Radio 1 to CTRL-\ and Select Next Radio to CTRL-]. I also set Select Previous Radio to CTRL-[ and Push to talk as NUMPAD-Plus (same as in Star Citizen), but neither of these keybinds are used for the Select Radio Channel macro. I highly suggest you check out [SRS-Citizen](https://srs-citizen.app). 
 
 ## Changing Paths
 You may have to change paths to certain programs if you want to use commands that can restart things like Joystick Gremlin and OpenTrack.Once you import the commands into your own profile you may change or edit them as you see fit. 

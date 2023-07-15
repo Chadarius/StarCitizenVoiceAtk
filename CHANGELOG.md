@@ -13,6 +13,13 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a.3.19.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a.3.19.1.zip) - 2-23-07-15
+ 
+Added support for DCS-SRS AWACS Radio Channel Selection
+ 
+### Added
+- Say "Select Radio Channel 1-10" (or just "channel 1-10") and the AWACS Radio Channel of that number will be selected. This requires you to set the controls for Radio 1 to CTRL-\ and Select Next Radio to CTRL-]. I also set Select Previous Radio to CTRL-[ and Push to talk as NUMPAD-Plus (same as in Star Citizen), but neither of these keybinds are used for the Select Radio Channel macro. I highly suggest you check out [SRS-Citizen](https://srs-citizen.app). 
+
 ## [a3.19.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.19.0.zip) - 2023-06-08
  
 Added Voice Controls for all the main MobiGlass Buttons. Only Nav (F2) and Comms (F11) have function key binds. Only my macros, thanks to my resolution independant tech, can handle the other Mobiglass buttons.
