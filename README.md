@@ -42,7 +42,7 @@ You must setup "ASMBL Astra-Profile.vap" and "ASMBL Init.vap" in your main profi
 
 To scale up the mouse click locations for different application resolutions you will need to change the "AsmblNewResX" and "AsmblNewResY" variables in the "Assembl Initialize" macro to your current Star Citizen application window resolution (2560x1440, 3840x2160, etc...). It will work with any 16:9 resolution without further changes. However, if you have an ultra wide or multi-monitor setup you will need to add in offset values to get it to work properly. 
 
-***Important!!!!** After you change settings in the ASMBL Init amcro, you must re-execute the macro to enable the new values!*
+***Important!!!!** After you change settings in the ASMBL Init macro, you must re-execute the macro to enable the new values!*
 
 Offsets can be set with the AsmblNewOffsetX and AsmblNewOffsetY variables. For instance, if you have three 1920x1080p monitors and your Star Citizen applicaiton resolution is 5760x1080 you would probably need to set your AsmbleNewOffsetX to 1920 get the mouse click functions to hit the mobiglass interface on the center screen. In this example you would keep AsmblNewOffsetY set to 0 as your resolution is still 1080. Your results may vary and you may need to manually figure out what your offsets should be. To help with targeting, the values that the functions use will be displayed in the VoiceAttack log screen.
 
