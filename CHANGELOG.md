@@ -13,6 +13,13 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.19.1a](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.19.1a.zip) - 2023-07-20
+ 
+Added macros to open the map for each planet and zoom in to allow the selection of planetary destinations. 
+ 
+### Added
+- Open map of ***planet name*** or just Open ***planet name***
+
 ## [a.3.19.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a.3.19.1.zip) - 2023-07-15
  
 Added support for DCS-SRS AWACS Radio Channel Selection
