@@ -13,6 +13,12 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.20.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.20.0.zip) - 2023-09-21
+ 
+### Fixed
+- Fixed text to speech for Evasive Maneuvers
+- Fixed all NAV map macros for 3.20
+
 ## [a3.19.1a](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.19.1a.zip) - 2023-07-20
  
 Added macros to open the map for each planet and zoom in to allow the selection of planetary destinations. 

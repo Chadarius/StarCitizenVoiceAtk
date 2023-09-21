@@ -42,13 +42,13 @@ You must setup "ASMBL Astra-Profile.vap" and "ASMBL Init.vap" in your main profi
 
 To scale up the mouse click locations for different application resolutions you will need to change the "AsmblNewResX" and "AsmblNewResY" variables in the "Assembl Initialize" macro to your current Star Citizen application window resolution (2560x1440, 3840x2160, etc...). It will work with any 16:9 resolution without further changes. However, if you have an ultra wide or multi-monitor setup you will need to add in offset values to get it to work properly. 
 
-***Important!!!!** After you change settings in the ASMBL Init macro, you must re-execute the macro to enable the new values!*
+***Important!!!!** After you change settings in the ASMBL Init macro, you must re-execute the "ASML Init" macro to enable the new values!*
 
 Offsets can be set with the AsmblNewOffsetX and AsmblNewOffsetY variables. For instance, if you have three 1920x1080p monitors and your Star Citizen applicaiton resolution is 5760x1080 you would probably need to set your AsmbleNewOffsetX to 1920 get the mouse click functions to hit the mobiglass interface on the center screen. In this example you would keep AsmblNewOffsetY set to 0 as your resolution is still 1080. Your results may vary and you may need to manually figure out what your offsets should be. To help with targeting, the values that the functions use will be displayed in the VoiceAttack log screen.
 
 A real world example from a friend's setup, is an ultrawide monitor that is 5120x1440. The Mobiglass interface is essentially the middle 2560x1440 of the screen. So AsmblNewResX should be set to 2560 and AsmblNewResY should be set to 1440. Because the screen is ultrawide, the AsmblNewOffsetX needs to be set to 1280 (there are 1280 pixels on each side of the center 2560x1440 center of the screen). Additionally, for whatever strange reason, the Mobiglass interface on the ultrawide also was shifted down by 32 pixels. So the AsmblNewOffsetY also needed to be changed to 32. Unfortunately there is no perfect way to calculate these values without some trial and error, as it looks like CIG doesn't scale the Mobiglass interface in exactly the same way that I would expect. 
 
-If you decide to retarget everything for a new resolution you will need to set the ASMBLOrgResX and ASMBLOrgResY to the application resolution you are using to record the X/Y coordinates with for the scaling to continue to work properly. Do not changes these values if you are not recreating all of your own targets! These need to be set to 1920x1080 for the original mouse X and Y targets to work properly. 
+If you decide to retarget everything for a new resolution you will need to set the ASMBLOrgResX and ASMBLOrgResY to the application resolution you are using to record the X/Y coordinates with for the scaling to continue to work properly. Do not change these values if you are not recreating all of your own targets! These need to be set to 1920x1080 for the original mouse X and Y targets to work properly. 
 
 Just in case you are interested, here is how the scaling math works. 
 
@@ -59,10 +59,11 @@ NewMouseY = AsmblMouseY/AsmblOrgResY*AsmblNewResY + AsmblNewOffsetY
 Good luck! We are all probably going to need it! 
 
 ### List of Lagrange Points That Require Extra Mouse Movement 
-Most planetary and Lagrange systems can be easily zoomed in on by a mouse double-click. However sometimes the target of a moon or Lagrange point station cannot be selected without using the mouse to move or rotate the map. In these cases the mouse movements may or may not translate well between resolutions. 
+Most planetary and Lagrange systems can be easily zoomed in on by a mouse double-click. However sometimes the target of a moon or Lagrange point station cannot be selected without using the mouse or keyboard to move or rotate the map. In these cases the mouse or keyboard movements may or may not translate well between resolutions. 
 
-- ARC-L1 Wide Forest Station
 - CRU-L5 Beautiful Glen Station
+- HUR-L1 Green Glade Station
+- HUR-L2 Faithful Dream Station
 - HUR-L3 Thundering Express Station
 - HUR-L4 Melodic Fields Station
 - MIC-L1 Shallow Frontier Station (no reliable method to select the station with mouse zoom)
