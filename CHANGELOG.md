@@ -13,6 +13,13 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.20.0a](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.20.0a.zip) - 2023-09-22
+ 
+NAV Fixes
+ 
+### Fixed
+- Fixed some of the more complex NAV macros that needed tuning. I added a manual mouse selection for HUR-L1 and HUR-L2 as there was no other choice. 
+
 ## [a3.20.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.20.0.zip) - 2023-09-21
  
 ### Fixed

@@ -62,11 +62,11 @@ Good luck! We are all probably going to need it!
 Most planetary and Lagrange systems can be easily zoomed in on by a mouse double-click. However sometimes the target of a moon or Lagrange point station cannot be selected without using the mouse or keyboard to move or rotate the map. In these cases the mouse or keyboard movements may or may not translate well between resolutions. 
 
 - CRU-L5 Beautiful Glen Station
-- HUR-L1 Green Glade Station
-- HUR-L2 Faithful Dream Station
+- HUR-L1 Green Glade Station (requires one manual mouse click)
+- HUR-L2 Faithful Dream Station (requires one manual mouse click)
 - HUR-L3 Thundering Express Station
 - HUR-L4 Melodic Fields Station
-- MIC-L1 Shallow Frontier Station (no reliable method to select the station with mouse zoom)
+- MIC-L1 Shallow Frontier Station (no reliable method to select the INS Jericho with mouse zoom)
 
 ## reShade
 [I'm using Fist and Jawa's reShade tutorial to setup reShade. Go check it out here](https://youtu.be/Y21B1t6AGHU). Once their setup is done come back here and setup the following keyboard shortcuts for reShade.
