@@ -8,11 +8,16 @@ Planned upgrade notes
  
 ### Added
 - Itemized list
-
+*
 ### Changed
  
 ### Fixed
 --->
+## [a3.20.0b](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.20.0b.zip) - 2023-09-26
+ 
+### Fixed
+* Upload correct "ASBML Init.vap" file
+
 ## [a3.20.0a](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.20.0a.zip) - 2023-09-22
  
 NAV Fixes
