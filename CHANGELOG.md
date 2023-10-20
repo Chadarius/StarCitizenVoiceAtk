@@ -8,11 +8,27 @@ Planned upgrade notes
  
 ### Added
 - Itemized list
-*
+
 ### Changed
  
 ### Fixed
 --->
+## [a3.21.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.21.0.zip) - YYYY-MM-DD
+ 
+Updated because CIG drastically changed the NAV map again, and not in a good way!
+ 
+### Added
+- Added the Magnus, Pyro, and Terra jump points to the NAV macros. Because there will eventually be multiple jump points to these locations, they must be prefixed with their system location to avoid overlap and confusion. Say "Navigate to Stanton Pyro jump point", where "jump point" is optional but "Stanton" is not. 
+- Added AsmblManualMouseCapture function. It will capture a mouse location based on a left click. It requires a passed txt variable on the name of what to click on.
+- Added AsmblZoom that will zoom at mouse coordinate the number of times that is passed to the function.
+- Added AsmblZoomHurston, which zooms the nav map once to force Hurston to show up. 
+
+### Changed
+- Updated ASMBL Init profile with new target points for planets as they have all changed.
+- The planet Hurston, CRU-L1, CRU-L2, HUR-L1, HUR-L2, and HUR-L5 don't show up on the map without zooming. Who thought that was a good idea at CIG? This is going to be problematic and may not work. 
+
+### Fixed
+
 ## [a3.20.0b](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.20.0b.zip) - 2023-09-26
  
 ### Fixed
