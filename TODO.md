@@ -4,32 +4,25 @@ I will track planninng and progress here for Star Citizen VoiceAttack macros.
 
 ### Todo
 
-- [ ] Create Split Macro - Splits a stacked inventory item X times where x is 1-999 
-- [ ] Create "FOIP/headtracking" macro video
-- [ ] Create "Damage Report and Maintenance" macros video
-- [ ] Create "Quick reference" macros video
-  - [X] Joystick quick reference
-  - [X] Keyboard quick reference
-  - [X] VoiceAttack quick reference
-- [ ] Create "Takeoff and landing" macros video
-  - [X] Prepare for takeoff
-    - [ ] One with VTOL and one with no VTOL?
-  - [X] Prepare for landing/final approach
-    - [ ] One with VTOL and one with no VTOL?
-  - [X] Secure the ship/baton down the hatches - engines off and max shields
-  - [X] Cast off/unsecure the ship - engines on and balance power
-- [ ] Create "Console commands" macros video
-  - [X] Quit/exit game
-  - [X] Display info 0-4
-- [ ] Create "Utility" macros video
-  - [X] Reset Joysticks (Joystick Gremlin)
-  - [#] Reset OpenTrack
-  - [X] stop/cancel macro/macros
-
-
+- [ ] Create variants of take off and landing macros for VTOL usage?
+- [ ] Create "Get Underway"/"Leave space dock" macro that deploys wings, sets cruise control. 
+- [ ] Create "condition green"/"stand down" macro that sets power to normal, turns off gimbals. 
+  
 ### In Progress
 
 ### Done ✓
+- [X] Quit/exit game
+- [X] Display info 0-4
+- [X] Reset Joysticks (Joystick Gremlin)
+- [#] Reset OpenTrack
+- [X] stop/cancel macro/macros
+- [X] Cast off/unsecure the ship - engines on and balance power
+- [X] Secure the ship/baton down the hatches - engines off and max shields
+- [X] Prepare for landing/final approach
+- [X] Prepare for takeoff
+- [X] Joystick quick reference
+- [X] Keyboard quick reference
+- [X] VoiceAttack quick reference
 - [X] Create "Hail ATC and Request Landing" macros video
 - [X] Create "Quck Sell" macro video
 - [X] Create "Flight mode" macros video

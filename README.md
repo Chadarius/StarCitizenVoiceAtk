@@ -61,12 +61,12 @@ Good luck! We are all probably going to need it!
 ### List of Lagrange Points That Require Extra Mouse Movement 
 Most planetary and Lagrange systems can be easily zoomed in on by a mouse double-click. However sometimes the target of a moon or Lagrange point station cannot be selected without using the mouse or keyboard to move or rotate the map. In these cases the mouse or keyboard movements may or may not translate well between resolutions. 
 
-- Hurston: It requires the nav map to be zoomed to show up. Zooming is not accurate in the nav map and can't be replicated to work 100% of the time. I'm still experimenting with how this will work. I've switched it to manually mouse click for now. Come on CIG! Get this figured out so it is at least useful!
-- CRU-L1
-- CRU-L2
+- Hurston: It requires the nav map to be zoomed to show up. Zooming is not accurate in the nav map and can't be replicated to work 100% of the time. I'm still experimenting with how this will work. I've switched it to manually mouse click for now. Come on CIG! Get this figured out so it is at least useful! (requires manual intervention)
+- CRU-L1 (requires manual intervention)
+- CRU-L2 (requires manual intervention)
 - CRU-L5 Beautiful Glen Station
-- HUR-L1 Green Glade Station (requires one manual mouse click)
-- HUR-L2 Faithful Dream Station (requires one manual mouse click)
+- HUR-L1 Green Glade Station (requires manual intervention)
+- HUR-L2 Faithful Dream Station (requires manual intervention)
 - HUR-L3 Thundering Express Station
 - HUR-L4 Melodic Fields Station
 - MIC-L1 Shallow Frontier Station (no reliable method to select the INS Jericho with mouse zoom)
