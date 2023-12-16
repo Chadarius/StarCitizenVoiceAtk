@@ -13,7 +13,48 @@ Planned upgrade notes
  
 ### Fixed
 --->
-## [a3.21.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.21.0.zip) - YYYY-MM-DD
+## [a3.22.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.22.0.zip) - 2023-12-15
+ 
+Planned upgrade notes
+
+### Added
+- Configure VTOL Yes/No
+- Configure Wings Yes/No
+- Configure Weapons Yes/No
+- Configure Ballistics Yes/No (if you have all ballistics)
+- Configuration Status
+- Configure [ship name] (sets all configs for a model of ship)
+- Configure Ship Defaults - Configures VTOL-No, Wings-No, Weapons-Yes
+
+### Added in Keybindings
+- Flight - Movement -> Throttle - Set Trim (short) - F10
+- Flight - Movement -> Throttle - Remove Trim (long) - F10 
+- Flight - Movement -> Speed Limiter - Reset to SCM - F9
+
+### New Voice Commands
+- Vehicles - Salvage -> Toggle Fire Focused - Button 1 (mouse)
+- Vehicles - Salvage -> Toggle Fire Left - Right Alt + A
+- Vehicles - Salvage -> Toggle Fire Right - Right Alt + D
+- Vehicles - Salvage -> Toggle Fire Fracture - Right Alt + W
+- Vehicles - Salvage -> Toggle Fire Disintegrate - Right Alt + S
+- Vehicles - Salvage -> Focus all salvage heads - Left Alt + S
+- Vehicles - Salvage -> Focus left salvage head - Left Alt + A
+- Vehicles - Salvage -> Focus right salvage head - Left Alt + D
+- Vehicles - Salvage -> Focus Fracture tool - Left Alt + W
+
+### Removed in Keybindings
+- Flight Power -> Decrease Throttle
+- Flight Power -> Decrease Throttle to Min
+- Flight Power -> Increase Throttle
+- Flight Power -> Increase Throttle to Min
+
+### Changed
+- Let's Get Undr Way - Updated with Ship Config for weapons power and wings
+- Cast off and head to standard orbit - Updated with Ship Config for weapons power and wings
+- Standard Flight - Updated with Ship Config for weapons power
+
+
+## [a3.21.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.21.0.zip) - 2023-10-20
  
 Updated because CIG drastically changed the NAV map again, and not in a good way!
  
