@@ -1,4 +1,4 @@
-# StarCitizenVoiceAtk for 3.21
+# StarCitizenVoiceAtk for 3.22
 My custom VoiceAttack macros with HCS Voice Pack ASTRA for Star Citizen
 
 [Install Voice Attack](https://voiceattack.com/)
