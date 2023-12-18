@@ -23,6 +23,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# LibreOffice temp files
+.~lock*
+
 # Notepad++
 # https://github.com/github/gitignore/blob/master/Global/NotepadPP.gitignore
 # Notepad++ backups #
