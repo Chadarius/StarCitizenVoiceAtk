@@ -115,17 +115,17 @@ Say "protocol override customize my settings" and click on the Voice Trigger Edi
 
 - Comms - Head Tracking reset - [Toggle;enable;disable] [foip; F O I P] [head tracking;]
 
-- Jump drive - Disengage Jump - [disengage;cancel] [jump;warp;quantum;ftl] [drive;] {TXT:hcsvt_OnMyMark}
+- Jump drive - Disengage Jump - [disengage;cancel] [jump;jump drive;warp drive;warp;quantum leap;leap;ftl] {TXT:hcsvt_OnMyMark}
 
-- Jump drive - Spool Quantum Jump - [Spool;activate;open;start] [jump;quantum;warp;ftl] [drive;mode;]
+- Jump drive - Spool Quantum Jump - [Spool;activate;open;charge;prepare;start] [the;] [jump;quantum;warp;ftl] [drive;mode;]
 
 - Jump drive - DeSpool Quantum Jump - [despool;deactivate;close;stop;] [jump;quantum;warp;ftl] [drive;mode;];[jump;quantum;warp;ftl] [drive;mode;] [off]
 
-- Jump drive - Engage Jump - {TXT:hcsvt_StandBy}[engage;initiate] [jump;jump drive;warp drive;warp;quantum leap;leap];[engage;initiate;] warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}
+- Jump drive - Engage Jump - {TXT:hcsvt_StandBy}[engage;initiate;make the;go for;] [jump;jump drive;warp drive;warp;quantum leap;leap;quantum jump;ftl] [drive;mode;] {TXT:hcsvt_OnMyMark};{TXT:hcsvt_StandBy} [engage;initiate;] warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}
 
 - Misc - Lock ship doors - [lock;batten down] [the;] [doors;hatches]
 
-- Power Controls - Max shields - [All;maximize;max] power [to;] [shield; shields]; Shields up
+- Power Controls - Maxes shields - [All;maximize;max] power [to;] [shield; shields]; Shields up
 
 - Power Controls - Power Down - Power down [the ship;]
 
