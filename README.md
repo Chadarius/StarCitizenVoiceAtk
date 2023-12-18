@@ -48,6 +48,18 @@ Offsets can be set with the AsmblNewOffsetX and AsmblNewOffsetY variables. For i
 
 A real world example from a friend's setup, is an ultrawide monitor that is 5120x1440. The Mobiglass interface is essentially the middle 2560x1440 of the screen. So AsmblNewResX should be set to 2560 and AsmblNewResY should be set to 1440. Because the screen is ultrawide, the AsmblNewOffsetX needs to be set to 1280 (there are 1280 pixels on each side of the center 2560x1440 center of the screen). Additionally, for whatever strange reason, the Mobiglass interface on the ultrawide also was shifted down by 32 pixels. So the AsmblNewOffsetY also needed to be changed to 32. Unfortunately there is no perfect way to calculate these values without some trial and error, as it looks like CIG doesn't scale the Mobiglass interface in exactly the same way that I would expect. 
 
+5120x1440
+- AsmblNewResX=2560
+- AsmblNewResY=1440
+- AsmblNewOffsetX=1280
+- AsmblNewOffsetY=32 (or zero!)
+
+3440x1440
+- AsmblNewResX=2560
+- AsmblNewResY=1440
+- AsmblNewOffsetX=440
+- AsmblNewOffsetY=0
+
 If you decide to retarget everything for a new resolution you will need to set the ASMBLOrgResX and ASMBLOrgResY to the application resolution you are using to record the X/Y coordinates with for the scaling to continue to work properly. Do not change these values if you are not recreating all of your own targets! These need to be set to 1920x1080 for the original mouse X and Y targets to work properly. 
 
 Just in case you are interested, here is how the scaling math works. 
