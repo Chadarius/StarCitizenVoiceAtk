@@ -3,14 +3,20 @@
 I will track planninng and progress here for Star Citizen VoiceAttack macros. 
 
 ### Todo
-
-- [ ] Create variants of take off and landing macros for VTOL usage?
-- [ ] Create "Get Underway"/"Leave space dock" macro that deploys wings, sets cruise control. 
+- [ ] Voice Citizen pack
+  - [ ] On my mark commands. Prefix "Stand by to" or "On My Mark" waits until you say "Now", "mark", "engage", "punch it" (for quantum), or "make it so". To cancel the command say "belay that command", "cancel command", "abort command". There is no timeout. Add a 10 second timer to question if the command should be belayed. [Example](https://forum.voiceattack.com/smf/index.php?topic=1069.0)
+- [ ] 3.23 NAV mode
+- [ ] 3.23 Mobiglass updates
+- [ ] 3.23 Mobiglass NAV updates
 - [ ] Create "condition green"/"stand down" macro that sets power to normal, turns off gimbals. 
-  
+- [ ] Create gear down and gear up macros to match newer keybind options (issue with key combos in bindings interface in Star Citizen)  
+- [ ] Create VTOL down and VTOL up macros to match newer keybind options
+
 ### In Progress
 
 ### Done ✓
+- [X] Create variants of take off and landing macros for VTOL usage?
+- [X] Create "Get Underway"/"Leave space dock" macro that deploys wings, sets cruise control. 
 - [X] Quit/exit game
 - [X] Display info 0-4
 - [X] Reset Joysticks (Joystick Gremlin)

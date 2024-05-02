@@ -30,3 +30,6 @@ $RECYCLE.BIN/
 # https://github.com/github/gitignore/blob/master/Global/NotepadPP.gitignore
 # Notepad++ backups #
 *.bak
+
+#scratchpad
+scratchpad.txt

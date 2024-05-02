@@ -13,6 +13,33 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [v3.23.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.0.0.zip) - 2024-05-02
+ 
+### Added
+- New! ASMBL Free 3.23 Profile! All default keyboard commands, plus resolution independant mobiglass macros. Use Voice Attack to navigate to all planets, moons, and LaGrange points! 
+- I will update the ASTRA profile when HCS Voice Packs updates their voice packs for 3.23.
+
+### Changed
+ 
+### Fixed
+- Updated (ASMBL Astra) HCS Engage Jump customization to 
+
+    "{TXT:hcsvt_StandBy}[engage;initiate;make the;go for;] [jump;warp;quantum;leap;ftl] [drive;mode;] {TXT:hcsvt_OnMyMark};{TXT:hcsvt_StandBy} [engage;initiate;]; warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}"
+    
+  It had some duplicate errors in it
+
+## [a.3.22.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a.3.22.1.zip) - YYYY-MM-DD
+ 
+Planned upgrade notes
+ 
+### Added
+- Itemized list
+
+### Changed
+- Updated Red Alert macro to use ship configuration for power management.
+ 
+### Fixed
+
 ## [a3.22.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.22.0.zip) - 2023-12-15
  
 Planned upgrade notes

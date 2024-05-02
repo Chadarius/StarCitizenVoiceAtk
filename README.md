@@ -1,44 +1,80 @@
-# StarCitizenVoiceAtk for 3.22
-My custom VoiceAttack macros with HCS Voice Pack ASTRA for Star Citizen
+# StarCitizenVoiceAtk for 3.23
+My custom VoiceAttack macros for Star Citizen. What does it do?
+- ASMBL Free
+  - Includes all default keyboard bindings
+  - Includes resolution independant mouse macros
+  - 100% automated voice macros for navigation
+  - Automated smart macros!
+      - take off (hail atc, lights, flight ready, balance power, full impulse)
+      - landing (balance power, half impulse)
+      - gear down (gear down, VTOL down if ship is configured for VTOL) - Additional keybindings needed!
+      - secure the ship (full shields, engines off)
+      - launch 1-10 (thusters up for X seconds)
+      - get under way (standard flight, gear up, wings out, VTOL forward)
+      - standard flight (balance power, full impulse)
+      - evasive maneuvers (switch to nav mode, full impulse, full trim)
+      - red alert (drop out of NAV mode, activate gimbals, reset power, full impulse)
+  - Ship configuration macros
+      - VTOL - If the ship has VTOL it will set it as needed "get under way" and "gear down" macros
+      - Pilot weapons/ballistics - If your ship has no pilot weapons or is configured for full pilot ballistics, weapons will be set to 50% shields and 50% engines with no power in weapons. 
+      - Wings - If you ship has wings, macros will expand and retract them as needed. (additional keybindings needed!)
 
 [Install Voice Attack](https://voiceattack.com/)
 
-[Install the ASTRA HCS Voice Pack](https://www.hcsvoicepacks.com/products/a-s-t-r-a-star-citizen?variant=20772219268)
+[Install the ASTRA HCS Voice Pack](https://www.hcsvoicepacks.com/products/a-s-t-r-a-star-citizen?variant=20772219268) No HCS VoicePack Required. When HCS updates their voice packs, I will also update the ASTRA profile. Eventually I will make the ASMBL Free and ASMBL Astra profiles interchangable. 
 
 ## The Basics
 If you have your own VoiceAttack macros, make sure you backup everything before you mess with this stuff! :)
 
 ### Download All the Commands
 
-You can download the latest [VoiceAttack Macros here](https://github.com/Chadarius/StarCitizenVoiceAtk/releases/latest). The "ASMBL Astra-Profile.vap" contains all the macros. The "ASMBL Init.vap" is also required to use the resolution independent macros. 
+You can download the latest [VoiceAttack Macros here](https://github.com/Chadarius/StarCitizenVoiceAtk/releases/latest). The "ASMBL Free-Profile.vap" contains all the macros. The "ASMBL Init.vap" is also required to use the resolution independent macros. 
 
 ### Create New Profile
-First create a new profile to hold your custom macros for Star Citizen. I created a new profile named "ASMBL Astra". ASTRA is the Star Citizen pack from HCS Voice Packs. A few of my custom macros use HCS VoicePack commands. 
+First create a new profile to hold your custom macros for Star Citizen. I created a new profile named "ASMBL Free" (or ASMBL ASTRA). ASTRA is the Star Citizen pack from HCS Voice Packs. A few of my custom macros use HCS VoicePack commands. 
 
-Next create a second profile to hold the resolution independent initialization variables. I named mine "ASMBL Init".
+Next create a second profile to hold the resolution independent initialization variables. I named mine "ASMBL Init". The ASMBL Init profile can be used by both ASMBL Free or ASMBL ASTRA.
 
 ### Import the Commands
-Select the new profile "ASMBL Astra" (or whatever you named it) and click the edit button. Then click the import commands button and import the "ASMBL Astra-Profile.vap" that you downloaded earlier.
+Select the new profile "ASMBL Free" (or whatever you named it) and click the edit button. Then click the import commands button and import the "ASMBL Astra-Profile.vap" that you downloaded earlier.
 
 Then select the new init profile "ASMBL Init" (or whatever you named it) and click the edit button. Then click the import commands button and import the "ASMBL Init.vap" that you downloaded earlier.
 
 ### Include Commands From Other Profiles
-Select the "HCS - Event Horizon (SC) beta" profile. Under Options, you should set "Include commands from other profiles:" and add the "ASMBL Astra" and "ASMBL Init" profiles there. 
-
-Then select the "ASMBL Astra" profile. Under Options, you should set "Include commands from other profiles:" and add the "HCS - Event Horizon (SC) beta" and "ASMBL Init" profiles there. 
-
-By doing this in both places you will be able to add, update, and test macros with the "ASMBL Astra" profile loaded. 
+Select the "ASMBL Free" profile (or whatever you named it). Under Options, you should set "Include commands from other profiles:" and add the "ASMBL Init" profiles there. If you are using the ASMBL ASTRA profile, then open the "HCS - Event Horizon (SC) beta" and include "ASMBL Astra" and "ASMBL Init".   
 
 ### Setup your AI Name
 I like to setup a code word to act as the "AI Name" for VoiceAttack. Its like saying "OK Google", "Alexa", or "Siri" to talk your phones/devices.
 
-Click the Options button on your main VoiceAttack Profile (if you are using HCS VoicePacks then it will be "HCS - Event Horizon (SC) Beta"). Check "Override listening if my spoken command begins with:" and set a command word. I use "Ava". You can use any word you want, but I suggest making it at least a two sylable easy to pronounce and understand word. This keeps your ship "AI" from accidently responding to conversations or things like the TV in the background. When you start Voice Attack, just tell it to "go to sleep" to stop listening except for anything following your command word. 
+Click the Options button on your main VoiceAttack Profile (if you are using HCS VoicePacks then it will be "HCS - Event Horizon (SC) Beta" or "ASMBL Free" for my free profile). Check "Override listening if my spoken command begins with:" and set a command word. I use "Ava". You can use any word you want, but I suggest making it at least a two sylable easy to pronounce and understand word. This keeps your ship "AI" from accidently responding to conversations or things like the TV in the background. When you start Voice Attack, just tell it to "go to sleep" to stop listening except for anything following your command word. 
+
+### Specialized Keybindings!
+#### Star Citizen Keybindings
+- Landing System (Deploy) - Period
+- Landing System (Retract) - Semicolon
+- Expand Configuration - Slash
+- Retract Configuration - Apostrophe
+- Trim on - F10
+- Trim off - F10 hold
+- Trim set to 100% - F9 hold
+- Trim set to 50% - F9
+
+#### Joystick Gremlin Keybindings
+Unfortunately the full impulse, half impulse, and impulse 5-100 command rely on the CTRL-Zero, CTRL-Minus, and CTRL-Equals keyboard commands. CTRL-Zero sets the throttle to zero in Joystick Gremlin. Minus and Plus set the throttle in 5% increments down or up. Perhaps I'll set a config in ASMBL Init that will change this to using the cruise control system if you don't use Joystick Gremlin... some day. 
+- CTRL-Zero - Throttle to zero
+- CTRL-Minus - Throttle down (5%)
+- CTRL-Equals - Throttle up (5%)
+
+#### DCS EWACS Radio
+- Radio 1 - CTRL-\
+- Next Radio - CTRL-]
+- Pervious Radio - CTRL-[
 
 ## Mouse targeting and Resolution
 
-Macros may not work properly out of the box. Any command that relies on mouse coordinates may need to be changed if you use any resolution other than 1920x1080. However, with 3.18, I've updated the macros to include some resolution independant capabilities. It will probably work OK for most Mobilglass targets like buttons, planets, and moons. Lagrange point stations are extremely tiny targets and may still not work well without tweaking the settings. So far I have found that the targeting is working however.
+Macros may not work properly out of the box. Any command that relies on mouse coordinates may need to be changed if you use any resolution other than 1920x1080. However, as of 3.18, I've updated the macros to include resolution independant capabilities. 
 
-You must setup "ASMBL Astra-Profile.vap" and "ASMBL Init.vap" in your main profile's "Include commands from other profiles" setting.  
+You must setup "ASMBL Free" or "ASMBL Astra-Profile.vap" and "ASMBL Init.vap" in your main profile's "Include commands from other profiles" setting. See "Include Commands From Other Profiles" section above to do this! 
 
 To scale up the mouse click locations for different application resolutions you will need to change the "AsmblNewResX" and "AsmblNewResY" variables in the "Assemble Initialize" macro to your current Star Citizen application window resolution (2560x1440, 3840x2160, etc...). It will work with any 16:9 resolution without further changes. However, if you have an ultra wide or multi-monitor setup you will need to add in offset values to get it to work properly. 
 
@@ -52,7 +88,7 @@ A real world example from a friend's setup, is an ultrawide monitor that is 5120
 - AsmblNewResX=2560
 - AsmblNewResY=1440
 - AsmblNewOffsetX=1280
-- AsmblNewOffsetY=32 (or zero!)
+- AsmblNewOffsetY=32 (or zero?)
 
 3440x1440
 - AsmblNewResX=2560
@@ -70,21 +106,8 @@ NewMouseY = AsmblMouseY/AsmblOrgResY*AsmblNewResY + AsmblNewOffsetY
 
 Good luck! We are all probably going to need it! 
 
-### List of Lagrange Points That Require Extra Mouse Movement 
-Most planetary and Lagrange systems can be easily zoomed in on by a mouse double-click. However sometimes the target of a moon or Lagrange point station cannot be selected without using the mouse or keyboard to move or rotate the map. In these cases the mouse or keyboard movements may or may not translate well between resolutions. 
-
-- Hurston: It requires the nav map to be zoomed to show up. Zooming is not accurate in the nav map and can't be replicated to work 100% of the time. I'm still experimenting with how this will work. I've switched it to manually mouse click for now. Come on CIG! Get this figured out so it is at least useful! (requires manual intervention)
-- CRU-L1 (requires manual intervention)
-- CRU-L2 (requires manual intervention)
-- CRU-L5 Beautiful Glen Station
-- HUR-L1 Green Glade Station (requires manual intervention)
-- HUR-L2 Faithful Dream Station (requires manual intervention)
-- HUR-L3 Thundering Express Station
-- HUR-L4 Melodic Fields Station
-- MIC-L1 Shallow Frontier Station (no reliable method to select the INS Jericho with mouse zoom)
-
 ## reShade
-[I'm using Fist and Jawa's reShade tutorial to setup reShade. Go check it out here](https://youtu.be/Y21B1t6AGHU). Once their setup is done come back here and setup the following keyboard shortcuts for reShade.
+[I'm using Fist and Jawa's reShade tutorial to setup reShade. Go check it out here](https://youtu.be/Y21B1t6AGHU). Once their setup is done come back here and setup the following keyboard shortcuts for reShade. Note: reShade will only work with DirectX 11!
 
 ### Settings Tab Shortcut Settings
 - ALT-Home - Overlay key
@@ -113,15 +136,19 @@ Say "protocol override customize my settings" and click on the Voice Trigger Edi
 
 - Combat - Close missile mode - [close;deactivate;disengage;exit] [missile mode;missiles]
 
-- Comms - Head Tracking reset - [Toggle;enable;disable] [foip; F O I P] [head tracking;]
+- Comms - Head Tracking reset -  [Toggle;enable;disable] [foip; F O I P;head tracking]
 
 - Jump drive - Disengage Jump - [disengage;cancel] [jump;jump drive;warp drive;warp;quantum leap;leap;ftl] {TXT:hcsvt_OnMyMark}
 
 - Jump drive - Spool Quantum Jump - [Spool;activate;open;charge;prepare;start] [the;] [jump;quantum;warp;ftl] [drive;mode;]
 
-- Jump drive - DeSpool Quantum Jump - [despool;deactivate;close;stop;] [jump;quantum;warp;ftl] [drive;mode;];[jump;quantum;warp;ftl] [drive;mode;] [off]
+- Jump drive - DeSpool Quantum Jump - [despool;deactivate;close;stop] [jump;quantum;warp;ftl] [drive;mode;];[jump;quantum;warp;ftl] [drive;mode;] [off]
 
-- Jump drive - Engage Jump - {TXT:hcsvt_StandBy}[engage;initiate;make the;go for;] [jump;jump drive;warp drive;warp;quantum leap;leap;quantum jump;ftl] [drive;mode;] {TXT:hcsvt_OnMyMark};{TXT:hcsvt_StandBy} [engage;initiate;] warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}
+- Jump drive - Engage Jump - {TXT:hcsvt_StandBy}[engage;initiate;make the;go for;] [jump;warp;quantum;leap;ftl] [drive;mode;] {TXT:hcsvt_OnMyMark};{TXT:hcsvt_StandBy} [engage;initiate;]; warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}
+
+- Mining - Mining mode on - [enable;activate;open] [mining;salvaging] mode; Mining Mode [on]; Salvaging Mode [on]
+
+- Mining - Mining mode off - [disable;deactivate;close] [mining;salvaging] mode; Mining Mode [off]; Salvaging Mode [off]
 
 - Misc - Lock ship doors - [lock;batten down] [the;] [doors;hatches]
 
@@ -133,9 +160,9 @@ Say "protocol override customize my settings" and click on the Voice Trigger Edi
 
 - Engines - Match Target Velocity - Match [target;] [velocity;speed];match their [speed;velocity]
 
-- Take off & Landing - VTOL On - [Enable;switch to;engage;activate;turn on;] [vtol;v toll; vtol mode; v toll mode;hover; hover mode]
+- Take off & Landing - VTOL On - [Enable;switch to;engage;activate;turn on;] [vtol;v toll; vtol mode; v toll mode;hover; hover mode];vtol on
 
-- Take off & Landing - VTOL Off - [Disable;switch off;disengage;deactivate;turn off] [vtol;v toll; vtol mode; v toll mode;hover;hover mode]; [switch to normal flight]
+- Take off & Landing - VTOL Off - [Disable;switch off;disengage;deactivate;turn off] [vtol;v toll; vtol mode; v toll mode;hover;hover mode]; [switch to normal flight]; vtol off
 
 ## DCS-SRS AWACS Radio Channel Selection
 Say "Select Radio Channel 1-10" (or just "channel 1-10") and the AWACS Radio Channel of that number will be selected. This requires you to set the controls for Radio 1 to CTRL-\ and Select Next Radio to CTRL-]. I also set Select Previous Radio to CTRL-[ and Push to talk as NUMPAD-Plus (same as in Star Citizen), but neither of these keybinds are used for the Select Radio Channel macro. I highly suggest you check out [SRS-Citizen](https://srs-citizen.app). 
