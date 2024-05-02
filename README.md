@@ -54,10 +54,10 @@ Click the Options button on your main VoiceAttack Profile (if you are using HCS 
 - Landing System (Retract) - Semicolon
 - Expand Configuration - Slash
 - Retract Configuration - Apostrophe
-- Trim on - F10
-- Trim off - F10 hold
-- Trim set to 100% - F9 hold
-- Trim set to 50% - F9
+- Trim on - F10 (clear the default Decrease and Increase Throttle keybinds!)
+- Trim off - F10 hold (clear the default Decrease and Increase Throttle keybinds!)
+- Trim set to 100% - F9 hold (clear the default Decrease and Increase Throttle keybinds!)
+- Trim set to 50% - F9 (clear the default Decrease and Increase Throttle keybinds!)
 
 #### Joystick Gremlin Keybindings
 Unfortunately the full impulse, half impulse, and impulse 5-100 command rely on the CTRL-Zero, CTRL-Minus, and CTRL-Equals keyboard commands. CTRL-Zero sets the throttle to zero in Joystick Gremlin. Minus and Plus set the throttle in 5% increments down or up. Perhaps I'll set a config in ASMBL Init that will change this to using the cruise control system if you don't use Joystick Gremlin... some day. 
