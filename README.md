@@ -48,8 +48,24 @@ I like to setup a code word to act as the "AI Name" for VoiceAttack. Its like sa
 
 Click the Options button on your main VoiceAttack Profile (if you are using HCS VoicePacks then it will be "HCS - Event Horizon (SC) Beta" or "ASMBL Free" for my free profile). Check "Override listening if my spoken command begins with:" and set a command word. I use "Ava". You can use any word you want, but I suggest making it at least a two sylable easy to pronounce and understand word. This keeps your ship "AI" from accidently responding to conversations or things like the TV in the background. When you start Voice Attack, just tell it to "go to sleep" to stop listening except for anything following your command word. 
 
+### Ship Configuration
+These settings are used in other macros to manage your ship's specialized components like retractable wings, VTOL, and whether you are using pilot guns or ballistics. For instance, if your ship has no pilot guns, resetting your power will put all the power into shields and engines instead of splitting it between weapons, shields and engines. 
+- Configure Ship defaults - This will set the ship configuration to the following defaults. Duplicate this macro to create a new ship configuration profile. Change the "when I say" command and the defaults as needed. 
+  - VTOL No (false)
+  - Wings No (false)
+  - Weapons Yes (true)
+- Configuration Status - Reads the current configuration.
+- Configure Ballistics Yes/No - Yes means you are using ballistics and will set weapons to "no"
+- Configure VTOL Yes/No - Yes means your ship has VTOL and assumes you are taking off with VTOL down or on. Unfortunately there is only a toggle available in Star Citizen at the moment. 
+- Configure Weapons Yes/No - Yes means you have pilot controlled energy weapons and is the default. The "configure ballistics yes" command will set weapons to "no"
+- Configure Wings Yes/No - Yes means your ship has retractable wings. 
+
 ### Specialized Keybindings!
+These are all customized key binds for Star Citizen and other third party programs that my Voice Attack macros use.
+
 #### Star Citizen Keybindings
+These are specific changes that I have made to Star Citizen key binds.
+
 - Landing System (Deploy) - Period
 - Landing System (Retract) - Semicolon
 - Expand Configuration - Slash
@@ -60,12 +76,14 @@ Click the Options button on your main VoiceAttack Profile (if you are using HCS 
 - Trim set to 50% - F9 (clear the default Decrease and Increase Throttle keybinds!)
 
 #### Joystick Gremlin Keybindings
-Unfortunately the full impulse, half impulse, and impulse 5-100 command rely on the CTRL-Zero, CTRL-Minus, and CTRL-Equals keyboard commands. CTRL-Zero sets the throttle to zero in Joystick Gremlin. Minus and Plus set the throttle in 5% increments down or up. Perhaps I'll set a config in ASMBL Init that will change this to using the cruise control system if you don't use Joystick Gremlin... some day. 
+Star Citizen has no useful keybinds that can reliably control the throttle. Mouse wheel commands could be used, but they do not produce consistent results. Instead, the full impulse, half impulse, and impulse 5-100 command rely on the CTRL-Zero, CTRL-Minus, and CTRL-Equals keyboard commands. CTRL-Zero sets the throttle to zero in Joystick Gremlin. Minus and Plus set the throttle in 5% increments down or up. Perhaps I'll set a config in ASMBL Init that will change this to using the cruise control system if you don't use Joystick Gremlin... some day. 
 - CTRL-Zero - Throttle to zero
 - CTRL-Minus - Throttle down (5%)
 - CTRL-Equals - Throttle up (5%)
 
 #### DCS EWACS Radio
+Say "Select Radio Channel 1-10" (or just "channel 1-10") and the AWACS Radio Channel of that number will be selected. This requires you to set the controls for Radio 1 to CTRL-\ and Select Next Radio to CTRL-]. I also set Select Previous Radio to CTRL-[ and Push to talk as NUMPAD-Plus (same as in Star Citizen), but neither of these keybinds are used for the Select Radio Channel macro. I highly suggest you check out [SRS-Citizen](https://srs-citizen.app). 
+
 - Radio 1 - CTRL-\
 - Next Radio - CTRL-]
 - Pervious Radio - CTRL-[
@@ -163,9 +181,6 @@ Say "protocol override customize my settings" and click on the Voice Trigger Edi
 - Take off & Landing - VTOL On - [Enable;switch to;engage;activate;turn on;] [vtol;v toll; vtol mode; v toll mode;hover; hover mode];vtol on
 
 - Take off & Landing - VTOL Off - [Disable;switch off;disengage;deactivate;turn off] [vtol;v toll; vtol mode; v toll mode;hover;hover mode]; [switch to normal flight]; vtol off
-
-## DCS-SRS AWACS Radio Channel Selection
-Say "Select Radio Channel 1-10" (or just "channel 1-10") and the AWACS Radio Channel of that number will be selected. This requires you to set the controls for Radio 1 to CTRL-\ and Select Next Radio to CTRL-]. I also set Select Previous Radio to CTRL-[ and Push to talk as NUMPAD-Plus (same as in Star Citizen), but neither of these keybinds are used for the Select Radio Channel macro. I highly suggest you check out [SRS-Citizen](https://srs-citizen.app). 
 
 ## Changing Paths
 You may have to change paths to certain programs if you want to use commands that can restart things like Joystick Gremlin and OpenTrack.Once you import the commands into your own profile you may change or edit them as you see fit. 
