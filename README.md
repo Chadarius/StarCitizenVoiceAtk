@@ -74,6 +74,7 @@ These are specific changes that I have made to Star Citizen key binds.
 - Trim off - F10 hold (clear the default Decrease and Increase Throttle keybinds!)
 - Trim set to 100% - F9 hold (clear the default Decrease and Increase Throttle keybinds!)
 - Trim set to 50% - F9 (clear the default Decrease and Increase Throttle keybinds!)
+- Toggle Lead/Lag PiPs - CTRL-P (doesn't work yet)
 
 #### Joystick Gremlin Keybindings
 Star Citizen has no useful keybinds that can reliably control the throttle. Mouse wheel commands could be used, but they do not produce consistent results. Instead, the full impulse, half impulse, and impulse 5-100 command rely on the CTRL-Zero, CTRL-Minus, and CTRL-Equals keyboard commands. CTRL-Zero sets the throttle to zero in Joystick Gremlin. Minus and Plus set the throttle in 5% increments down or up. Perhaps I'll set a config in ASMBL Init that will change this to using the cruise control system if you don't use Joystick Gremlin... some day. 

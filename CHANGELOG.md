@@ -13,10 +13,12 @@ Planned upgrade notes
  
 ### Fixed
 --->
-## [v3.23.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/v0.0.0.zip) - 2024-05-02
+## [a3.23.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.0.zip) - 2024-05-02
  
 ### Added
-- New! ASMBL Free 3.23 Profile! All default keyboard commands, plus resolution independant mobiglass macros. Use Voice Attack to navigate to all planets, moons, and LaGrange points! 
+- New! ASMBL Free 3.23 Profile! All default keyboard commands, plus resolution independant mobiglass macros. Use Voice Attack to navigate to all planets, cities, planetary stations, moons, and LaGrange points! 
+- Toggle/Set PIP (CTRL-P doesn't seem to work?)
+- Condition Green (Nav Mode On, Reset Poser, Full Impulse)
 - I will update the ASTRA profile when HCS Voice Packs updates their voice packs for 3.23.
 
 ### Changed
@@ -27,6 +29,10 @@ Planned upgrade notes
     "{TXT:hcsvt_StandBy}[engage;initiate;make the;go for;] [jump;warp;quantum;leap;ftl] [drive;mode;] {TXT:hcsvt_OnMyMark};{TXT:hcsvt_StandBy} [engage;initiate;]; warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}"
     
   It had some duplicate errors in it
+
+- Fixed a few macros (Standard flight, fire weapon 1, fire weapon 2, fire all, suppression fire,  )
+- Cycle Missiles
+- 
 
 ## [a.3.22.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a.3.22.1.zip) - YYYY-MM-DD
  
