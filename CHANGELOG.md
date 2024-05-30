@@ -13,6 +13,40 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.23.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.1.zip) - 2024-05-29
+ 
+Planned upgrade notes
+ 
+### Added
+- All ahead full - max speed and set trim to 100%
+- All ahead half - max speed and set trim to 50%
+- Targeting Defaults - uses "F3" to set a vastly improved targeting PIP under Vehicles -> Weapons
+  - PIP Targeting Defaults (See Star Citizen Keybindings in the Readme)
+- Mouse "Set Impulse speed to 100" (Impulse 0-100") - Mouse only users can use this command to control their speed limiter. Star Citizen provides no means of exactly controlling your speed limiter or throttle with the mouse. The percentage is approximate in increments of 5 or 10 percent. Your results may vary and you may need to adjust the macro as needed. You have been warned! The Gremlin version of this uses Joystick Gremlin and can set exactly 5% increments 
+- Verbose setting in ASMBL Init. To see some extra output in red, set this to true. Useful for troubleshooting ASMBL functions
+- PIP Targeting Defaults
+  - Set your preferences for your targeting PIP to the F3 key. The Following are my settings that significantly improve the targeting PIP and setting it to lead PIP. This will be called when you run the "Prepare for Takeoff" macro. 
+  - Vehicles - Weapons - Set Lead PIPs - F3
+  - Vehicles - Weapons - Set Precision Lines On - F3
+  - Vehicles - Weapons - PIP Faiding Off - F3
+  - Vehicles - Weapons - Gunnery UI Magnification On - F3
+- Toggle Speed Limiter - alt-zero
+- Reset SCM - R-shift-0 (Right parenthesis)
+- SCM Increase - R-shift-Minus (underscore "_")
+- SCM Decrease - R-shift-Plus (Plus "+")
+- Switch to S C M Mode - semicolon
+- Set gun mode - R-shift-semicolon (colon ":")
+- Set missile mode - R-ctrl-semicolon
+- Set scan mode - R-alt-semicolon
+- Switch to Nav mode - apostrophe
+- Set mining mode - R-ctrl-apostrophe (quote'"')
+- Set salvage mode - R-ctrl-apostrophe (quote'"')
+- Set quantum mode - R-shift-apostrophe (quote'"')
+- Set flight mode - R-alt-apostrophe (quote'"')
+
+### Changed
+ 
+### Fixed
 ## [a3.23.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.0.zip) - 2024-05-02
  
 ### Added

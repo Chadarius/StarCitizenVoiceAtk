@@ -1,4 +1,6 @@
 # StarCitizenVoiceAtk for 3.23
+Please note that "ASMBL Astra" is currently not supported in 3.23. HCS Voicepacks took weeks to update to 3.23. I didn't want to wait so I created "ASMBL Free" in the meantime. I will eventually create an new extension profile for use with HCS. In the meantime enjoy "ASMBL Free"!
+
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
   - Includes all default keyboard bindings
@@ -64,23 +66,47 @@ These settings are used in other macros to manage your ship's specialized compon
 These are all customized key binds for Star Citizen and other third party programs that my Voice Attack macros use.
 
 #### Star Citizen Keybindings
-These are specific changes that I have made to Star Citizen key binds.
+These are specific changes that I have made to Star Citizen key binds. I used the Keybind tool from HCS so I could use the shift, ctrl, and alt keys. CIG can't manage to edit their own XML file properly these days... sigh.
 
-- Landing System (Deploy) - Period
-- Landing System (Retract) - Semicolon
+All macros that require new keybinds have #newkeybind in their description so they can be easily sorted.
+
+ - Lock Pitch/Yaw Movement (Toggle/Hold) - Unbind this STUPID key so we can use the shift for other things!
+ - Landing System (Deploy) - Period
+- Landing System (Retract) - shift-period (Greater than >)
 - Expand Configuration - Slash
-- Retract Configuration - Apostrophe
+- Retract Configuration - Shift-slash (Question mark ?)
 - Trim on - F10 (clear the default Decrease and Increase Throttle keybinds!)
 - Trim off - F10 hold (clear the default Decrease and Increase Throttle keybinds!)
 - Trim set to 100% - F9 hold (clear the default Decrease and Increase Throttle keybinds!)
 - Trim set to 50% - F9 (clear the default Decrease and Increase Throttle keybinds!)
-- Toggle Lead/Lag PiPs - CTRL-P (doesn't work yet)
+- PIP Targeting Defaults
+  - Set your preferences for your targeting PIP to the F3 key. The Following are my settings that significantly improve the targeting PIP and setting it to lead PIP. This will be called when you run the "Prepare for Takeoff" macro. 
+  - Vehicles - Weapons - Set Lead PIPs - F3
+  - Vehicles - Weapons - Set Precision Lines On - F3
+  - Vehicles - Weapons - PIP Faiding Off - F3
+  - Vehicles - Weapons - Gunnery UI Magnification On - F3
+- Toggle Speed Limiter - alt-zero
+- Reset SCM - R-shift-0 (Right parenthesis)
+- SCM Increase - R-shift-Minus (underscore "_")
+- SCM Decrease - R-shift-Plus (Plus "+")
+- Switch to S C M Mode - semicolon
+- Set gun mode - R-shift-semicolon (colon ":")
+- Set missile mode - R-ctrl-semicolon
+- Set scan mode - R-alt-semicolon
+- Switch to Nav mode - apostrophe
+- Set mining mode - R-ctrl-apostrophe (quote'"')
+- Set salvage mode - R-ctrl-apostrophe (quote'"')
+- Set quantum mode - R-shift-apostrophe (quote'"')
+- Set flight mode - R-alt-apostrophe (quote'"')
 
-#### Joystick Gremlin Keybindings
+#### Joystick Gremlin Speed Limiter Keybindings
 Star Citizen has no useful keybinds that can reliably control the throttle. Mouse wheel commands could be used, but they do not produce consistent results. Instead, the full impulse, half impulse, and impulse 5-100 command rely on the CTRL-Zero, CTRL-Minus, and CTRL-Equals keyboard commands. CTRL-Zero sets the throttle to zero in Joystick Gremlin. Minus and Plus set the throttle in 5% increments down or up. Perhaps I'll set a config in ASMBL Init that will change this to using the cruise control system if you don't use Joystick Gremlin... some day. 
 - CTRL-Zero - Throttle to zero
 - CTRL-Minus - Throttle down (5%)
 - CTRL-Equals - Throttle up (5%)
+
+#### Mouse Wheel Speed Limiter Macro
+
 
 #### DCS EWACS Radio
 Say "Select Radio Channel 1-10" (or just "channel 1-10") and the AWACS Radio Channel of that number will be selected. This requires you to set the controls for Radio 1 to CTRL-\ and Select Next Radio to CTRL-]. I also set Select Previous Radio to CTRL-[ and Push to talk as NUMPAD-Plus (same as in Star Citizen), but neither of these keybinds are used for the Select Radio Channel macro. I highly suggest you check out [SRS-Citizen](https://srs-citizen.app). 
