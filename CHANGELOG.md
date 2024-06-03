@@ -13,11 +13,12 @@ Planned upgrade notes
  
 ### Fixed
 --->
-## [a3.23.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.1.zip) - 2024-05-29
+## [a3.23.1a](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.1a.zip) - 2024-06-03
  
 Planned upgrade notes
  
 ### Added
+- Added HCS Voicepack support! Make sure to update the HCS macros commands specified the README.
 - All ahead full - max speed and set trim to 100%
 - All ahead half - max speed and set trim to 50%
 - Targeting Defaults - uses "F3" to set a vastly improved targeting PIP under Vehicles -> Weapons
@@ -45,7 +46,8 @@ Planned upgrade notes
 - Set flight mode - R-alt-apostrophe (quote'"')
 
 ### Changed
- 
+- Updated all ASMBL macros with a #ASMBL tag in the description. Also added a #newkeybind tag for any macro that requires a keybind update. All keybind requirements are documented in the README. 
+
 ### Fixed
 ## [a3.23.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.0.zip) - 2024-05-02
  
