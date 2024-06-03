@@ -76,7 +76,7 @@ These settings are used in other macros to manage your ship's specialized compon
 These are all customized key binds for Star Citizen and other third party programs that my Voice Attack macros use.
 
 #### Star Citizen Keybindings
-These are specific changes that I have made to Star Citizen key binds. I used the Keybind tool from HCS so I could use the shift, ctrl, and alt keys. CIG can't manage to edit their own XML file properly these days... sigh.
+These are specific changes that I have made to Star Citizen key binds. I used the [Keybind tool from HCS so I could use the shift, ctrl, and alt keys](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-hcs-keybind-tools?variant=41812086456403). CIG can't manage to edit their own XML file properly these days... sigh.
 
 All macros that require new keybinds have #newkeybind in their description so they can be easily sorted.
 
