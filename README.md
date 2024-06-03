@@ -1,6 +1,4 @@
-# StarCitizenVoiceAtk for 3.23
-Please note that "ASMBL Astra" is currently not supported in 3.23. HCS Voicepacks took weeks to update to 3.23. I didn't want to wait so I created "ASMBL Free" in the meantime. I will eventually create an new extension profile for use with HCS. In the meantime enjoy "ASMBL Free"!
-
+# StarCitizenVoiceAtk for 3.23 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
   - Includes all default keyboard bindings
