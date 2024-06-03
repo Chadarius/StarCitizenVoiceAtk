@@ -16,6 +16,11 @@ My custom VoiceAttack macros for Star Citizen. What does it do?
       - standard flight (balance power, full impulse)
       - evasive maneuvers (switch to nav mode, full impulse, full trim)
       - red alert (drop out of NAV mode, activate gimbals, reset power, full impulse)
+      - condition green/stand down (switch to nav mode, reset power, full impulse)
+      - All ahead full/Full speed (Reset power, Full impulse, full trim)
+      - All ahead half/Helf speed (Reset power, Full impulse, half trim)
+      - All stop/Full stop (impulse zero, trim off)
+      
   - Ship configuration macros
       - VTOL - If the ship has VTOL it will set it as needed "get under way" and "gear down" macros
       - Pilot weapons/ballistics - If your ship has no pilot weapons or is configured for full pilot ballistics, weapons will be set to 50% shields and 50% engines with no power in weapons. 
@@ -43,7 +48,12 @@ Select the new profile "ASMBL Free" (or whatever you named it) and click the edi
 Then select the new init profile "ASMBL Init" (or whatever you named it) and click the edit button. Then click the import commands button and import the "ASMBL Init.vap" that you downloaded earlier.
 
 ### Include Commands From Other Profiles
-Select the "ASMBL Free" profile (or whatever you named it). Under Options, you should set "Include commands from other profiles:" and add the "ASMBL Init" profiles there. If you are using the ASMBL ASTRA profile, then open the "HCS - Event Horizon (SC) beta" and include "ASMBL Astra" and "ASMBL Init".   
+#### ASMBL Free
+ASMBL Free is a profile that contains most of the default keybinds for macros. It also includes all of my specialized macros for cameras, navigation, etc...
+Select the "ASMBL Free" profile (or whatever you named it when you imported the commands). Under the profile's Options, you should set "Include commands from other profiles:" and add the "ASMBL Init" profiles there.   
+
+#### Use with HCS VoicePacks
+ASMBL Free can also be used along with any of the HCS VoicePacks. If you are using an HCS VoicePack, then open the "HCS - Event Horizon (SC) beta" and include "ASMBL Free" and "ASMBL Init". Any macros that have the same voice commands will be run from the "HCS - Event Horizon (SC) beta" profile first. If there is not a duplicate command, then it will find the voice command from ASMBL Free. This requires a few changes that you can find below in the HCS VoicePack Customizations section. 
 
 ### Setup your AI Name
 I like to setup a code word to act as the "AI Name" for VoiceAttack. Its like saying "OK Google", "Alexa", or "Siri" to talk your phones/devices.
@@ -106,7 +116,9 @@ Star Citizen has no useful keybinds that can reliably control the throttle. Mous
 - CTRL-Equals - Throttle up (5%)
 
 #### Mouse Wheel Speed Limiter Macro
+I've included a rudrudimentary speed limiter macro for mouse and keyboard users. Do not use this macro if you are using joysticks. Your joystick will constantly take over the speed limiter setting at seemingly random times. Just don't do it! If you are a mouse and keyboard person then this should work much better for you than the default HCS settings.
 
+To enable using the mouse macros, rename the "[Set;] [throttle;Impulse] [speed;power;] [to;] [0..100]" by adding 'Gremlin or Joystick to the beginning of the command". Then edit the "Mouse [Set;] [throttle;Impulse] [speed;power;] [to;] [0..100]" and remove Mouse from the beginning of the command. Now you can say "Impulse 50" and get roughly 50% set to your speed limiter. It is not exact and will be slightly different every time. It is what it is. You may need to adjust the timing and ranges in the macro to make it work properly for you. This works OKish for me. 
 
 #### DCS EWACS Radio
 Say "Select Radio Channel 1-10" (or just "channel 1-10") and the AWACS Radio Channel of that number will be selected. This requires you to set the controls for Radio 1 to CTRL-\ and Select Next Radio to CTRL-]. I also set Select Previous Radio to CTRL-[ and Push to talk as NUMPAD-Plus (same as in Star Citizen), but neither of these keybinds are used for the Select Radio Channel macro. I highly suggest you check out [SRS-Citizen](https://srs-citizen.app). 
@@ -183,13 +195,16 @@ Say "protocol override customize my settings" and click on the Voice Trigger Edi
 
 - Comms - Head Tracking reset -  [Toggle;enable;disable] [foip; F O I P;head tracking]
 
+- Misc - Deploy Wings - Expand [configuration;config]; deploy wings; wings out; wings down
+- Misc - Retract wings - Retract [configuration;config]; retract wings; wings up; wings back
+
 - Jump drive - Disengage Jump - [disengage;cancel] [jump;jump drive;warp drive;warp;quantum leap;leap;ftl] {TXT:hcsvt_OnMyMark}
 
-- Jump drive - Spool Quantum Jump - [Spool;activate;open;charge;prepare;start] [the;] [jump;quantum;warp;ftl] [drive;mode;]
+- Jump drive - Spool Quantum Jump - [Spool;activate;open;charge;prepare;start] [the;] [jump;quantum;warp;ftl] [drive;]
 
-- Jump drive - DeSpool Quantum Jump - [despool;deactivate;close;stop] [jump;quantum;warp;ftl] [drive;mode;];[jump;quantum;warp;ftl] [drive;mode;] [off]
+- Jump drive - DeSpool Quantum Jump - [despool;deactivate;close;stop] [jump;quantum;warp;ftl] [drive;mode;];[jump;quantum;warp;ftl] [drive;] [off]
 
-- Jump drive - Engage Jump - {TXT:hcsvt_StandBy}[engage;initiate;make the;go for;] [jump;warp;quantum;leap;ftl] [drive;mode;] {TXT:hcsvt_OnMyMark};{TXT:hcsvt_StandBy} [engage;initiate;]; warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}
+- Jump drive - Engage Jump - {TXT:hcsvt_StandBy}[engage;initiate;make the;go for;] [jump;warp;quantum;leap;ftl] [drive;] {TXT:hcsvt_OnMyMark};{TXT:hcsvt_StandBy} [engage;initiate;]; warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}
 
 - Mining - Mining mode on - [enable;activate;open] [mining;salvaging] mode; Mining Mode [on]; Salvaging Mode [on]
 
