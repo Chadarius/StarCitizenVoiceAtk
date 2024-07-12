@@ -13,6 +13,25 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.23.1c](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.1c.zip) - 2024-07-12
+ 
+### Changed
+- Updated all LaGrange Nav Points to target the stations instead of just the Lagrange Point.
+
+## [a3.23.1b](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.1b.zip) - YYYY-MM-DD
+ 
+Planned upgrade notes
+ 
+### Added
+- 
+
+### Changed
+- Boost 2-20 - Removed trim off  
+- Nav Mode - added "max engines" and "full impluse" to counter act the stupid half speed glitch.
+- Gun Mode - added power reset and full impulse
+
+### Fixed
+
 ## [a3.23.1a](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.1a.zip) - 2024-06-03
  
 Planned upgrade notes
