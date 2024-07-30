@@ -1,10 +1,10 @@
 # StarCitizenVoiceAtk for 3.23 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
+  - NEW! "Stand by for/to... [command]... on my mark" for many commands! Can by easily added to any macro.
   - Includes all default keyboard bindings
   - Includes resolution independant mouse macros
   - 100% automated voice macros for navigation
-  - Stand by for/to [command] on my mark for many commands! Can by easily added to any macro.
   - Automated smart macros!
       - prepare for take off (hail atc, lights, flight ready, balance power, full impulse)
       - final approach/prepare for landing (SCM mode, hail atc, balance power, impulse)
