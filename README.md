@@ -4,16 +4,17 @@ My custom VoiceAttack macros for Star Citizen. What does it do?
   - Includes all default keyboard bindings
   - Includes resolution independant mouse macros
   - 100% automated voice macros for navigation
+  - Stand by for/to [command] on my mark for many commands! Can by easily added to any macro.
   - Automated smart macros!
-      - take off (hail atc, lights, flight ready, balance power, full impulse)
-      - landing (balance power, half impulse)
-      - gear down (gear down, VTOL down if ship is configured for VTOL) - Additional keybindings needed!
+      - prepare for take off (hail atc, lights, flight ready, balance power, full impulse)
+      - final approach/prepare for landing (SCM mode, hail atc, balance power, impulse)
+      - gear down (gear down, VTOL down if ship is configured for VTOL) - Additional keybindings needed. See keybindings section below!
       - secure the ship (full shields, engines off)
       - launch 1-10 (thusters up for X seconds)
       - get under way (standard flight, gear up, wings out, VTOL forward)
       - standard flight (balance power, full impulse)
-      - evasive maneuvers (switch to nav mode, full impulse, full trim)
-      - red alert (drop out of NAV mode, activate gimbals, reset power, full impulse)
+      - evasive maneuvers (drop noise, drop flaire, switch to nav mode, full impulse, full trim)
+      - red alert (SCM gun mode, reset power, full impulse)
       - condition green/stand down (switch to nav mode, reset power, full impulse)
       - All ahead full/Full speed (Reset power, Full impulse, full trim)
       - All ahead half/Helf speed (Reset power, Full impulse, half trim)
@@ -80,9 +81,9 @@ All macros that require new keybinds have #newkeybind in their description so th
 
  - Lock Pitch/Yaw Movement (Toggle/Hold) - Unbind this STUPID key so we can use the shift for other things!
  - Landing System (Deploy) - Period
-- Landing System (Retract) - shift-period (Greater than >)
+- Landing System (Retract) - R-shift-period (Greater than >)
 - Expand Configuration - Slash
-- Retract Configuration - Shift-slash (Question mark ?)
+- Retract Configuration - R-shift-slash (Question mark ?)
 - Trim on - F10 (clear the default Decrease and Increase Throttle keybinds!)
 - Trim off - F10 hold (clear the default Decrease and Increase Throttle keybinds!)
 - Trim set to 100% - F9 hold (clear the default Decrease and Increase Throttle keybinds!)
@@ -127,15 +128,15 @@ Say "Select Radio Channel 1-10" (or just "channel 1-10") and the AWACS Radio Cha
 
 ## Mouse targeting and Resolution
 
-Macros may not work properly out of the box. Any command that relies on mouse coordinates may need to be changed if you use any resolution other than 1920x1080. However, as of 3.18, I've updated the macros to include resolution independant capabilities. 
+As of 3.18, I've updated the macros to include resolution independant capabilities. 
 
-You must setup "ASMBL Free" or "ASMBL Astra-Profile.vap" and "ASMBL Init.vap" in your main profile's "Include commands from other profiles" setting. See "Include Commands From Other Profiles" section above to do this! 
+You must setup "ASMBL Free" and "ASMBL Init.vap" in your main profile's "Include commands from other profiles" setting. See "Include Commands From Other Profiles" section above to do this! 
 
 To scale up the mouse click locations for different application resolutions you will need to change the "AsmblNewResX" and "AsmblNewResY" variables in the "Assemble Initialize" macro to your current Star Citizen application window resolution (2560x1440, 3840x2160, etc...). It will work with any 16:9 resolution without further changes. However, if you have an ultra wide or multi-monitor setup you will need to add in offset values to get it to work properly. 
 
-***Important!!!!** After you change settings in the ASMBL Init macro, you must re-execute the "ASML Init" macro to enable the new values!*
+***Important!!!!** After you change settings in the ASMBL Init macro, you must re-execute the "ASML Init" macro to enable the new values! Just say "Assemble Init" to run it again.*
 
-Offsets can be set with the AsmblNewOffsetX and AsmblNewOffsetY variables. For instance, if you have three 1920x1080p monitors and your Star Citizen applicaiton resolution is 5760x1080 you would probably need to set your AsmbleNewOffsetX to 1920 get the mouse click functions to hit the mobiglass interface on the center screen. In this example you would keep AsmblNewOffsetY set to 0 as your resolution is still 1080. Your results may vary and you may need to manually figure out what your offsets should be. To help with targeting, the values that the functions use will be displayed in the VoiceAttack log screen.
+Offsets can be set with the AsmblNewOffsetX and AsmblNewOffsetY variables. For instance, if you have three 1920x1080p monitors and your Star Citizen applicaiton resolution is 5760x1080 you would need to set your AsmbleNewOffsetX to 1920 get the mouse click functions to hit the mobiglass interface on the center screen. In this example you would keep AsmblNewOffsetY set to 0 as your resolution is still 1080. Your results may vary and you may need to manually figure out what your offsets should be. To help with targeting, the values that the functions use will be displayed in the VoiceAttack log screen.
 
 A real world example from a friend's setup, is an ultrawide monitor that is 5120x1440. The Mobiglass interface is essentially the middle 2560x1440 of the screen. So AsmblNewResX should be set to 2560 and AsmblNewResY should be set to 1440. Because the screen is ultrawide, the AsmblNewOffsetX needs to be set to 1280 (there are 1280 pixels on each side of the center 2560x1440 center of the screen). Additionally, for whatever strange reason, the Mobiglass interface on the ultrawide also was shifted down by 32 pixels. So the AsmblNewOffsetY also needed to be changed to 32. Unfortunately there is no perfect way to calculate these values without some trial and error, as it looks like CIG doesn't scale the Mobiglass interface in exactly the same way that I would expect. 
 
@@ -143,7 +144,7 @@ A real world example from a friend's setup, is an ultrawide monitor that is 5120
 - AsmblNewResX=2560
 - AsmblNewResY=1440
 - AsmblNewOffsetX=1280
-- AsmblNewOffsetY=32 (or zero?)
+- AsmblNewOffsetY=0 (or 32?)
 
 3440x1440
 - AsmblNewResX=2560
