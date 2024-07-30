@@ -202,7 +202,7 @@ Say "protocol override customize my settings" and click on the Voice Trigger Edi
 
 - Jump drive - DeSpool Quantum Jump - [despool;deactivate;close;stop] [jump;quantum;warp;ftl] [drive;mode;];[jump;quantum;warp;ftl] [drive;] [off]
 
-- Jump drive - Engage Jump - {TXT:hcsvt_StandBy}[engage;initiate;make the;go for;] [jump;warp;quantum;leap;ftl] [drive;] {TXT:hcsvt_OnMyMark};{TXT:hcsvt_StandBy} [engage;initiate;]; warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}
+- Jump drive - Engage Jump - {TXT:hcsvt_StandBy} {TXT:hcsvt_OnMyMark} [engage;initiate;make the;go for;] [jump;warp;quantum;leap;ftl] [drive;] {TXT:hcsvt_OnMyMark}; {TXT:hcsvt_StandBy} {TXT:hcsvt_OnMyMark} [engage;initiate;] warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}
 
 - Mining - Mining mode on - [enable;activate;open] [mining;salvaging] mode; Mining Mode [on]; Salvaging Mode [on]
 

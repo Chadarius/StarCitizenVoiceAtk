@@ -13,6 +13,37 @@ Planned upgrade notes
  
 ### Fixed
 --->
+## [a3.23.1d](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.1d.zip) - 2024-07-30
+ 
+Planned upgrade notes
+ 
+### Added
+- Auto Docking command
+- Show main profile in logging info for ASMBL Init
+- Acknowledged function - Randomly says acknowledged, aye aye, affirmative, as you wish, or by your command
+- Mark function - When you say Mark, execute, now, engage or punch it, the macro will set Mark to true and continue the stand by command. 
+- Mark Timer function - Counts down 15 seconds before cancelling stand by command.
+
+
+### Changed
+- stop macro - added belay that, belay that command, belay that order
+- Updated "Stand by for/to..." or "...on my mark" for the following commands:
+  - Engage Jump
+  - Fire Missiles
+  - Deploy Counter Measures
+  - Deploy Noise
+  - Deploy Decoys
+  - Emergency Boost
+  - Emergency Stop
+  - Afterburner/Boost
+  - afterburner 2-20
+  - autolanding
+  - autodocking
+
+### Fixed
+- stop macro - removed duplicate macro
+- HCS Engage Jump (custom command) - {TXT:hcsvt_StandBy} [engage;initiate;make the;go for;] [jump;warp;quantum;leap;ftl] [drive;] {TXT:hcsvt_OnMyMark}; {TXT:hcsvt_StandBy} {TXT:hcsvt_OnMyMark} [engage;initiate;] warp factor [1;2;3;4;5;6;7;8;9;10] {TXT:hcsvt_OnMyMark}
+
 ## [a3.23.1c](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.1c.zip) - 2024-07-12
  
 ### Changed
