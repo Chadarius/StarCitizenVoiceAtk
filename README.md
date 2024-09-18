@@ -1,21 +1,24 @@
 # StarCitizenVoiceAtk for 3.23 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
-  - NEW! "Stand by for/to... [command]... on my mark" for many commands! Can by easily added to any macro.
+  - **NEW! In 3.24.1** Control your tractor beams with your voice using "Tractor Pull/Push [1-100]. Does Cargo have your carpal tunnel going nuts? The ATLS is WAY too expensive! Grab and send items automatically with your voice instead! 
+  - NEW! In 3.23.1 "Stand by for/to... [command]... on my mark" for many commands! Can be easily added to any macro.
   - Includes all default keyboard bindings
-  - Includes resolution independant mouse macros
+  - Includes resolution independant mouse macros (Mobiglass and Nav Map)
   - 100% automated voice macros for navigation
   - Automated smart macros!
-      - prepare for take off (hail atc, lights, flight ready, balance power, full impulse)
-      - final approach/prepare for landing (SCM mode, hail atc, balance power, impulse)
-      - gear down (gear down, VTOL down if ship is configured for VTOL) - Additional keybindings needed. See keybindings section below!
-      - secure the ship (full shields, engines off)
-      - launch 1-10 (thusters up for X seconds)
-      - get under way (standard flight, gear up, wings out, VTOL forward)
-      - standard flight (balance power, full impulse)
-      - evasive maneuvers (drop noise, drop flaire, switch to nav mode, full impulse, full trim)
-      - red alert (SCM gun mode, reset power, full impulse)
-      - condition green/stand down (switch to nav mode, reset power, full impulse)
+      - Prepare for take off (hail atc, lights, flight ready, reset power, full impulse)
+      - Final approach/prepare for landing (SCM mode, hail atc, rest power, impulse)
+      - Gear down (gear down, VTOL down if ship is configured for VTOL) - Additional keybindings needed. See keybindings section below!
+      - Secure the ship (full shields, engines off)
+      - Launch 1-10 (thusters up for X seconds)
+      - Get under way (standard flight, gear up, wings out, VTOL forward)
+      - Standard flight (reset power, full impulse)
+      - Evasive maneuvers (drop noise, drop decoy, switch to nav mode, max engines, full impulse, full trim)
+      - Red alert/Battle Stations/Condition Red (SCM gun mode, reset power, full impulse)
+      - Stand down/Condition Green (Nav Mode - reset power, full impulse)
+      - Condition Yellow/Yellow Alert
+      - Condition green/stand down (switch to nav mode, reset power, full impulse)
       - All ahead full/Full speed (Reset power, Full impulse, full trim)
       - All ahead half/Helf speed (Reset power, Full impulse, half trim)
       - All stop/Full stop (impulse zero, trim off)
@@ -28,6 +31,8 @@ My custom VoiceAttack macros for Star Citizen. What does it do?
 [Install Voice Attack](https://voiceattack.com/)
 
 [Install the ASTRA HCS Voice Pack](https://www.hcsvoicepacks.com/products/a-s-t-r-a-star-citizen?variant=20772219268) No HCS VoicePack Required. When HCS updates their voice packs, I will also update the ASTRA profile. Eventually I will make the ASMBL Free and ASMBL Astra profiles interchangable. 
+
+**New** Improve your Text to Speech (TTS) with Cortana. Enable the "Cortana" TTS profile by following [these instructions](https://github.com/watermarkhu/enable-microsoft-eva-tts/tree/master). 
 
 ## The Basics
 If you have your own VoiceAttack macros, make sure you backup everything before you mess with this stuff! :)
@@ -94,7 +99,7 @@ All macros that require new keybinds have #newkeybind in their description so th
   - Vehicles - Weapons - Set Precision Lines On - F3
   - Vehicles - Weapons - PIP Faiding Off - F3
   - Vehicles - Weapons - Gunnery UI Magnification On - F3
-- Toggle Speed Limiter - alt-zero
+- Toggle Speed Limiter - Right-Alt-Zero
 - Reset SCM - R-shift-0 (Right parenthesis)
 - SCM Increase - R-shift-Minus (underscore "_")
 - SCM Decrease - R-shift-Plus (Plus "+")

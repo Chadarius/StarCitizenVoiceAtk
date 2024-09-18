@@ -7,12 +7,57 @@ All notable changes to Chadarius' StarCitizenVoiceAtk will be documented in this
 Planned upgrade notes
  
 ### Added
-- Itemized list
+-  
 
 ### Changed
- 
+-  
+
 ### Fixed
+-
+
 --->
+## [a3.24.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.24.1.zip) - 2024-09-16
+ 
+Planned upgrade notes
+ 
+### Added
+- Carry Weapon Lowered (default is Left-ALT-R)
+- Continuous Scan/Ping - Pings every three seconds. Say "belay that command" or "stop macro" to stop. 
+- Condition Yellow - Switches to gun mode and then executes "Shields Up"
+- Reset decoys (sets decoys to zero assuming they only get set to a max of 10)
+- Set decoys to [1-10]
+- Power to Shields and Weapons
+- Toggle Speed Limiter
+
+### Changed;:
+- Added "Scan" in addition to Ping for Radar commands to avoid some possible duplication with HCS. HCS Scanning commands are broken as they expect a keyboard command and not the current default mouse wheel up/down command for increase/decrease scan angles. 
+- Removed "switch to combat mode" in the "scan mode" macro. This allows you to switch to scan mode while in NAV or SCM mode. This is better for miners scanning in NAV mode to cover ground faster. 
+- Changed FPS weapon macros
+  - Draw Rifle
+  - Draw Pistol/Sidearm
+- "Reset Power Advanced" updated to include check for weapons configuration and use "power to shields and engines" if weapons are all ballistic. 
+- Combat mode now executes "gun mode", "reset power", and "full impulse" - optimized timing
+- Red Alert updated to run "Combat Mode" and "set decoys to 4"
+- Gun mode now only switches to combat mode and guns
+- "Navigation Mode" updated to use "quantum mode", "reset power" and "full impulse" with exact timing to max speed when available. 
+- "Quantum Mode" updated to only switch to NAV and Quantum modes. 
+- "Decrease/Increase Decoy" shortened from "Decrease/Increase Decoy Burst Size"
+- Changed "Red Alert" to use "Increase/Decrease Decoy" macro. 
+- Evasive Maneuvers now uses the "NAV mode" command to switch to NAV mode.
+- Power to Shields and Engines was optimized to be faster with less commands
+- Optimized all "trim" macro speeds
+- "Missiles" optimized timing
+- "Set Missiles 1-4" optimized timing
+- "Toggle Equip Helmet" - Equip and unequip helmet to inventory or hand
+- "Helmet" - Equip and unequip helmet to "belt" - removed redundant macros. 
+
+### Fixed
+- Typo in Holster Weapon fixed
+- Various typos in Navigate to... macros
+- Fixed a math error in "Set Missiles [1-4]"
+- Removed Duplicate Hail ATC commands
+
+
 ## [a3.23.1d](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.23.1d.zip) - 2024-07-30
  
 Planned upgrade notes
