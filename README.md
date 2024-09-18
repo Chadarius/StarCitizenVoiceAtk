@@ -47,7 +47,7 @@ First create a new profile to hold your custom macros for Star Citizen. I create
 Next create a second profile to hold the resolution independent initialization variables. I named mine "ASMBL Init". The ASMBL Init profile can be used by both ASMBL Free or ASMBL ASTRA.
 
 ### Import the Commands
-Select the new profile "ASMBL Free" (or whatever you named it) and click the edit button. Then click the import commands button and import the "ASMBL Astra-Profile.vap" that you downloaded earlier.
+Select the new profile "ASMBL Free" (or whatever you named it) and click the edit button. Then click the import commands button and import the "ASMBL Free-Profile.vap" that you downloaded earlier.
 
 Then select the new init profile "ASMBL Init" (or whatever you named it) and click the edit button. Then click the import commands button and import the "ASMBL Init.vap" that you downloaded earlier.
 
