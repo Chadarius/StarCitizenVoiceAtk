@@ -16,6 +16,25 @@ Planned upgrade notes
 -
 
 --->
+## [a3.24.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.24.2.zip) - YYYY-MM-DD
+ 
+Planned upgrade notes
+ 
+### Added
+- Unlock Current Target;Clear Target - Alt-T
+- Power to minimum - Hold F8 sets weapons, engines, and shields to minimum
+- Power to Shields and Weapons - Updated for new power controls
+- Power to Weapons and Engines - Updated for new power controls
+- Power to Weapons and Shields - Updated for new power controls
+- Added Keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommand using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
+
+### Changed
+- Power to Shields and Engines;Shields up - Updated for new power controls
+- Reset power advanced Updated - Updated to just use F8
+
+### Fixed
+-
+
 ## [a3.24.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.24.1.zip) - 2024-09-16
  
 Planned upgrade notes

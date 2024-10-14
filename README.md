@@ -1,8 +1,10 @@
 # StarCitizenVoiceAtk for 3.23 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
-  - **NEW! In 3.24.1** Control your tractor beams with your voice using "Tractor Pull/Push [1-100]. Does Cargo have your carpal tunnel going nuts? The ATLS is WAY too expensive! Grab and send items automatically with your voice instead! 
-  - NEW! In 3.23.1 "Stand by for/to... [command]... on my mark" for many commands! Can be easily added to any macro.
+  - **NEW! In 3.24.2** - Updated Power Controls and a few new power commands. 
+  - **NEW! In 3.24.2** Added Keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommand using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
+  -  Added in 3.24.1 Control your tractor beams with your voice using "Tractor Pull/Push [1-100]. Does Cargo have your carpal tunnel going nuts? The ATLS is WAY too expensive! Grab and send items automatically with your voice instead! 
+  - Added in 3.23.1 "Stand by for/to... [command]... on my mark" for many commands! Can be easily added to any macro.
   - Includes all default keyboard bindings
   - Includes resolution independant mouse macros (Mobiglass and Nav Map)
   - 100% automated voice macros for navigation
@@ -84,8 +86,10 @@ These are specific changes that I have made to Star Citizen key binds. I used th
 
 All macros that require new keybinds have #newkeybind in their description so they can be easily sorted.
 
- - Lock Pitch/Yaw Movement (Toggle/Hold) - Unbind this STUPID key so we can use the shift for other things!
- - Landing System (Deploy) - Period
+I've added a keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommand using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
+
+- Lock Pitch/Yaw Movement (Toggle/Hold) - Unbind this STUPID key so we can use the shift for other things!
+- Landing System (Deploy) - Period
 - Landing System (Retract) - R-shift-period (Greater than >)
 - Expand Configuration - Slash
 - Retract Configuration - R-shift-slash (Question mark ?)
@@ -112,6 +116,9 @@ All macros that require new keybinds have #newkeybind in their description so th
 - Set salvage mode - R-ctrl-apostrophe (quote'"')
 - Set quantum mode - R-shift-apostrophe (quote'"')
 - Set flight mode - R-alt-apostrophe (quote'"')
+- **New in 3.24.2** Vehicles Power - Weapons Set to Min (Hold) - F8
+- **New in 3.24.2** Vehicles Power - Engines Set to Min (Hold) - F8
+- **New in 3.24.2** Vehicles Power - Shields Set to Min (Hold) - F8
 
 #### Joystick Gremlin Speed Limiter Keybindings
 Star Citizen has no useful keybinds that can reliably control the throttle. Mouse wheel commands could be used, but they do not produce consistent results. Instead, the full impulse, half impulse, and impulse 5-100 command rely on the CTRL-Zero, CTRL-Minus, and CTRL-Equals keyboard commands. CTRL-Zero sets the throttle to zero in Joystick Gremlin. Minus and Plus set the throttle in 5% increments down or up. Perhaps I'll set a config in ASMBL Init that will change this to using the cruise control system if you don't use Joystick Gremlin... some day. 
