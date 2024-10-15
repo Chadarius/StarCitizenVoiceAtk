@@ -19,7 +19,8 @@ Planned upgrade notes
 ## [a3.24.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.24.2.zip) - YYYY-MM-DD
  
 Planned upgrade notes
- 
+CIG is still mucking around with how the power settings work and not for the better so far. It remains to be see if it will be in a state that can be used with VoiceAttack or not. 
+
 ### Added
 - Unlock Current Target;Clear Target - Alt-T
 - Power to minimum - Hold F8 sets weapons, engines, and shields to minimum

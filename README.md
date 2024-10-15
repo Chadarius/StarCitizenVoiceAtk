@@ -1,7 +1,7 @@
 # StarCitizenVoiceAtk for 3.23 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
-  - **NEW! In 3.24.2** - Updated Power Controls and a few new power commands. 
+  - **NEW! In 3.24.2** - Updated Power Controls and a few new power commands. CIG is still mucking around with how the power settings work and not for the better so far. It remains to be see if it will be in a state that can be used with VoiceAttack or not.
   - **NEW! In 3.24.2** Added Keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommand using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
   -  Added in 3.24.1 Control your tractor beams with your voice using "Tractor Pull/Push [1-100]. Does Cargo have your carpal tunnel going nuts? The ATLS is WAY too expensive! Grab and send items automatically with your voice instead! 
   - Added in 3.23.1 "Stand by for/to... [command]... on my mark" for many commands! Can be easily added to any macro.
