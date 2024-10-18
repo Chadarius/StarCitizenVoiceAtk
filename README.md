@@ -1,8 +1,9 @@
 # StarCitizenVoiceAtk for 3.23 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
-  - **NEW! In 3.24.2** - Updated Power Controls and a few new power commands. CIG is still mucking around with how the power settings work and not for the better so far. It remains to be see if it will be in a state that can be used with VoiceAttack or not.
+  - **NEW! In 3.24.2** - Updated Power Controls and a few new power commands. CIG is still mucking around with how the power settings work and not for the better so far. It remains to be see if it will be in a state that can be used with VoiceAttack or not. See the keybinds section to configure the keybinds!
   - **NEW! In 3.24.2** Added Keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommand using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
+   - **NEW! In 3.24.2** Control gun groups with Set Guns Group 1-4, Set EMPs, Set Quantum Jammers/Snares, and Set QIDs. See the keybinds section to configure the keybinds! 
   -  Added in 3.24.1 Control your tractor beams with your voice using "Tractor Pull/Push [1-100]. Does Cargo have your carpal tunnel going nuts? The ATLS is WAY too expensive! Grab and send items automatically with your voice instead! 
   - Added in 3.23.1 "Stand by for/to... [command]... on my mark" for many commands! Can be easily added to any macro.
   - Includes all default keyboard bindings
@@ -119,6 +120,18 @@ I've added a keybinds file [layout_all_exported.xml](./layout_all_exported.xml) 
 - **New in 3.24.2** Vehicles Power - Weapons Set to Min (Hold) - F8
 - **New in 3.24.2** Vehicles Power - Engines Set to Min (Hold) - F8
 - **New in 3.24.2** Vehicles Power - Shields Set to Min (Hold) - F8
+- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Guns Group 1 (Set Guns All) - Right Ctrl + Left Arrow
+- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Guns Group 2 (Set Guns Lasers) - Right Ctrl + Up Arrow
+- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Guns Group 3 (Set Guns Ballistics) - Right Ctrl + Right Arrow
+- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Guns Group 4 (Set Guns Distortion) - Right Ctrl  +Down Arrow
+- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set EMPs - Right Alt + Right Ctrl + Left Arrow
+- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Quantum Jammers - Right Alt + Right Ctrl + Up Arrow
+- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Quantum Snares/Pulse - Right Alt + Right Ctrl + Right Arrow
+- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set QIDs - Right Alt + Right Ctrl + Down Arrow
+- **New in 3.24.2** Vehicles - Multi Function Displays (MFDs) - MFD Movement Up - Left Alt + W
+- **New in 3.24.2** Vehicles - Multi Function Displays (MFDs) - MFD Movement Down - Left Alt + S
+- **New in 3.24.2** Vehicles - Multi Function Displays (MFDs) - MFD Movement Left - Left Alt + A
+- **New in 3.24.2** Vehicles - Multi Function Displays (MFDs) - MFD Movement Right - Left Alt + D
 
 #### Joystick Gremlin Speed Limiter Keybindings
 Star Citizen has no useful keybinds that can reliably control the throttle. Mouse wheel commands could be used, but they do not produce consistent results. Instead, the full impulse, half impulse, and impulse 5-100 command rely on the CTRL-Zero, CTRL-Minus, and CTRL-Equals keyboard commands. CTRL-Zero sets the throttle to zero in Joystick Gremlin. Minus and Plus set the throttle in 5% increments down or up. Perhaps I'll set a config in ASMBL Init that will change this to using the cruise control system if you don't use Joystick Gremlin... some day. 

@@ -16,7 +16,7 @@ Planned upgrade notes
 -
 
 --->
-## [a3.24.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.24.2.zip) - YYYY-MM-DD
+## [a3.24.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.24.2.zip) - 2024-10-17
  
 Planned upgrade notes
 CIG is still mucking around with how the power settings work and not for the better so far. It remains to be see if it will be in a state that can be used with VoiceAttack or not. 
@@ -28,10 +28,27 @@ CIG is still mucking around with how the power settings work and not for the bet
 - Power to Weapons and Engines - Updated for new power controls
 - Power to Weapons and Shields - Updated for new power controls
 - Added Keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommand using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
+- Weapons Preset - Set Guns Group 1-4
+- Weapons Preset - Set EMPs
+- Weapons Preset - Set Quantum Jammer
+- Weapons Preset - Set Quantum Snares/Pulse
+- Weapons Preset - Set QIDs (Interdictor)
+- Weapons Preset - Fire EMPs
+- Weapons Preset - Fire Quantum Jammer
+- Weapons Preset - Fire Quantum Snares/Pulse
+- Weapons Preset - Fire QIDs (Interdictor)
+- MFD Cycle Page Forwards
+- MFD Cycle Page Backwards
+- MFD Movement Up
+- MFD Movement Down
+- MFD Movement Left
+- MFD Movement Right
+
 
 ### Changed
 - Power to Shields and Engines;Shields up - Updated for new power controls
 - Reset power advanced Updated - Updated to just use F8
+- Updated Mouse impulse option to hold ALT down for mouse wheel speed limiter adjustments
 
 ### Fixed
 -
