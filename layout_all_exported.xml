@@ -361,7 +361,7 @@
    <rebind input="js1_hat1_right"/>
   </action>
   <action name="v_target_cycle_subitem_reset">
-   <rebind input="js1_hat1_up"/>
+   <rebind input="js1_button30"/>
   </action>
   <action name="v_target_under_reticle">
    <rebind input="js1_button10"/>
@@ -489,10 +489,10 @@
    <rebind input="kb1_rctrl+down"/>
   </action>
   <action name="v_weapon_preset_next">
-   <rebind input="js1_ "/>
+   <rebind input="js1_hat1_down"/>
   </action>
   <action name="v_weapon_preset_prev">
-   <rebind input="js1_ "/>
+   <rebind input="js1_hat1_up"/>
   </action>
   <action name="v_weapon_preset_qid">
    <rebind input="kb1_ralt+rctrl+down"/>

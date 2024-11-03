@@ -1,7 +1,7 @@
 # StarCitizenVoiceAtk for 3.23 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
-  - **NEW! In 3.24.2** - Updated Power Controls and a few new power commands. CIG is still mucking around with how the power settings work and not for the better so far. It remains to be see if it will be in a state that can be used with VoiceAttack or not. See the keybinds section to configure the keybinds!
+  - **NEW! In 3.24.3** - Updated Power Controls and a few new power commands. CIG is still mucking around with how the power settings work and not for the better so far. It remains to be see if it will be in a state that can be used with VoiceAttack or not. See the keybinds section to configure the keybinds! I've added a "Configure Power Management Yes/No" macro that will allow you to turn off power management resets used in mult-function macros.
   - **NEW! In 3.24.2** Added Keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommand using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
    - **NEW! In 3.24.2** Control gun groups with Set Guns Group 1-4, Set EMPs, Set Quantum Jammers/Snares, and Set QIDs. See the keybinds section to configure the keybinds! 
   -  Added in 3.24.1 Control your tractor beams with your voice using "Tractor Pull/Push [1-100]. Does Cargo have your carpal tunnel going nuts? The ATLS is WAY too expensive! Grab and send items automatically with your voice instead! 
@@ -88,6 +88,8 @@ These are specific changes that I have made to Star Citizen key binds. I used th
 All macros that require new keybinds have #newkeybind in their description so they can be easily sorted.
 
 I've added a keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommand using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
+
+All of the keybinds are [documented in this file](./Keybinds%20-%20Quick%20Reference.htm). I try to stick to the defaults as much as humanly possible. Below are any keybinds that I've added or customized from the defaults. 
 
 - Lock Pitch/Yaw Movement (Toggle/Hold) - Unbind this STUPID key so we can use the shift for other things!
 - Landing System (Deploy) - Period
