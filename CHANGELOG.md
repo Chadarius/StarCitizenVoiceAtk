@@ -23,11 +23,6 @@ Planned upgrade notes
 ### Added
 -  "Configure Power Management Yes/No" - this will tell VoiceAttack to not mess with your power once you have it set manually. 
 
-### Changed
--  
-
-### Fixed
--
 
 ## [a3.24.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.24.2.zip) - 2024-10-17
  
