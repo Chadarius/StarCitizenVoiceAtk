@@ -18,6 +18,7 @@
    <category label="@ui_CCVehicle"/>
    <category label="@ui_CGEASpectator"/>
    <category label="@ui_CGUIGeneral"/>
+   <category label="@ui_CGOpticalTracking"/>
    <category label="@ui_CGInteraction"/>
   </categories>
  </CustomisationUIHeader>
@@ -388,7 +389,7 @@
   </action>
   <action name="v_scanning_trigger_scan">
    <rebind input="kb1_mouse1"/>
-   <rebind input="js2_hat1_left"/>
+   <rebind input="js1_button1"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_mining">
@@ -890,6 +891,11 @@
  <actionmap name="default">
   <action name="toggle_trackview">
    <rebind input="kb1_F5"/>
+  </action>
+ </actionmap>
+ <actionmap name="player_input_optical_tracking">
+  <action name="headtrack_recenter_device">
+   <rebind input="kb1_np_multiply"/>
   </action>
  </actionmap>
  <actionmap name="player_choice">
