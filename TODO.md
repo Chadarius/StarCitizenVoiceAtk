@@ -3,10 +3,12 @@
 I will track planninng and progress here for Star Citizen VoiceAttack macros. 
 
 ### Todo
+- [] Add "[Lay in;Plot] a course" to the navigation macro. 
 
 ### In Progress
 
 ### Done ✓
+- [x] Update Cancel Route to use the "C" keybind instead of a mouse click
 - [x] ASMBL Free
   - [x] On my mark commands. Prefix "Stand by to" or "On My Mark" waits until you say "Now", "mark", "engage", "punch it" (for quantum), or "make it so". To cancel the command say "belay that command", "cancel command", "abort command". There is no timeout. Add a 10 second timer to question if the command should be belayed. [Example](https://forum.voiceattack.com/smf/index.php?topic=1069.0)
 - [x] 3.23 NAV mode

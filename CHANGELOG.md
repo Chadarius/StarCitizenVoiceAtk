@@ -16,6 +16,20 @@ Planned upgrade notes
 -
 
 --->
+## [a4.0.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.0.0.zip) - 2024-12-20
+ 
+Planned upgrade notes
+ 
+### Added
+-   
+
+### Changed
+-   
+
+### Fixed
+-  Tractor Beams all set to convert the ratio to .9 meters per mouse wheel click. 
+-  Cancel Route - fixed to use "C" to cancel instead of a mouse click. 
+
 ## [a3.24.3](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a3.24.3.zip) - 2024-11-03
  
 Planned upgrade notes
