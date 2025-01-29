@@ -1,4 +1,4 @@
-# StarCitizenVoiceAtk for 3.23 - ASMBL Free with HCS Support
+# StarCitizenVoiceAtk for 4.0.1 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
   - **NEW! In 4.0.1** - Fixes for Mobiglass mouse macros.
