@@ -16,6 +16,23 @@ Planned upgrade notes
 -
 
 --->
+## [a4.0.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.0.1.zip) - 2025-01-06
+ 
+Planned upgrade notes
+ 
+### Added
+-  
+
+### Changed
+-  NAV mode - CIG no longer sets NAV speed to 1/3 so I removed the full impulse command
+-  Get me out of here - Added all ahead full command 
+-  Updated ASMBLMouseClick to include mouse movement. The mobiglass does not recognize mouseclicks without the mouse also "moving". 
+-  Reduced pauses to speed the NAV macros up. 
+-  Added back power management back to macros.
+
+### Fixed
+- Typos in the readme
+
 ## [a4.0.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.0.0.zip) - 2024-12-20
  
 Planned upgrade notes

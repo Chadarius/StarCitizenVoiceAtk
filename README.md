@@ -1,6 +1,8 @@
 # StarCitizenVoiceAtk for 3.23 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
+  - **NEW! In 4.0.1** - Fixes for Mobiglass mouse macros.
+  - **NEW! In 4.0.1** - Added back power management.
   - **NEW! In 4.0** - Added Pyro Nav Points. The type ahead for Pyro I doesn't work properly in the NAV map. If I've missed one, let me know on the Discord (link is below)!
   - **NEW! In 3.24.3** - Updated Power Controls and a few new power commands. CIG is still mucking around with how the power settings work and not for the better so far. It remains to be see if it will be in a state that can be used with VoiceAttack or not. See the keybinds section to configure the keybinds! I've added a "Configure Power Management Yes/No" macro that turns off power management resets used in mult-function macros by default. "You can say Configure Power Management Yes" to turn the old powermanagement back on if you would like. 
   - **NEW! In 3.24.2** Added Keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommand using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
@@ -90,7 +92,7 @@ These are specific changes that I have made to Star Citizen key binds. I used th
 
 All macros that require new keybinds have #newkeybind in their description so they can be easily sorted.
 
-I've added a keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommand using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
+I've added a keybinds file [layout_all_exported.xml](./layout_all_exported.xml) that can be imported. I highly recommend using the [HCS Keybind Editor Premium utility](https://www.hcsvoicepacks.com/collections/star-citizen/products/star-citizen-keybind-editor-premium-joystick-controller-support?variant=42157335281747) so you can import just the keyboard keybinds and not my VKB Config. 
 
 All of the keybinds are [documented in this file](./Keybinds%20-%20Quick%20Reference.htm). I try to stick to the defaults as much as humanly possible. Below are any keybinds that I've added or customized from the defaults. 
 
