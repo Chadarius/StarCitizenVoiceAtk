@@ -16,6 +16,40 @@ Planned upgrade notes
 -
 
 --->
+[a4.1.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.1.1.zip) - 2025-05-01
+ 
+Planned upgrade notes
+ 
+### Added
+- "Medic" - added this command to use the healing equiped multi-tool from the right hand tool slot now that the medical gun no long fits there. It uses the V key to draw the tool, then right mouse button to point it at your avatar, then the left mouse button to heal. The macro then puts the tool away. The "patch me up" command still works and uses medpens equipped on your legs. 
+- Added On Foot section to the quick reference guide. 
+
+### Changed
+-   
+
+### Fixed
+- Afterburners/Boost reply with number of seconds fixed. 
+- Brake reply with number of seconds fixed. Reduced some pauses in the macro
+
+## [a4.0.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.0.2.zip) - 2025-02-28
+ 
+Planned upgrade notes
+ 
+### Added
+-  
+
+### Changed
+-  Lock S-foils in attack position and Stow S-foils added for deploy/retract wings
+-  Reduced wait times in NAV macros. Also made the typing faster.
+-  Reduced pauses in Boost from .5 to .250
+-  Reduced pauses in evasive maneuvers
+-  Reduced pauses in all ahead full
+-  Reduced pauses in boost
+
+
+### Fixed
+
+
 ## [a4.0.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.0.1.zip) - 2025-01-06
  
 Planned upgrade notes

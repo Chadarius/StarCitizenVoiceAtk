@@ -1,6 +1,8 @@
 # StarCitizenVoiceAtk for 4.0.1 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
+  - **NEW! In 4.1.1** - Medic - uses right side equiped multi-tool to heal. 
+  - **NEW! In 4.0.2** - Lock S-foils in attack position and Stow S-foils added for deploy/retract wings
   - **NEW! In 4.0.1** - Fixes for Mobiglass mouse macros.
   - **NEW! In 4.0.1** - Added back power management.
   - **NEW! In 4.0** - Added Pyro Nav Points. The type ahead for Pyro I doesn't work properly in the NAV map. If I've missed one, let me know on the Discord (link is below)!
@@ -124,21 +126,21 @@ All of the keybinds are [documented in this file](./Keybinds%20-%20Quick%20Refer
 - Set salvage mode - R-ctrl-apostrophe (quote'"')
 - Set quantum mode - R-shift-apostrophe (quote'"')
 - Set flight mode - R-alt-apostrophe (quote'"')
-- **New in 3.24.2** Vehicles Power - Weapons Set to Min (Hold) - F8
-- **New in 3.24.2** Vehicles Power - Engines Set to Min (Hold) - F8
-- **New in 3.24.2** Vehicles Power - Shields Set to Min (Hold) - F8
-- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Guns Group 1 (Set Guns All) - Right Ctrl + Left Arrow
-- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Guns Group 2 (Set Guns Lasers) - Right Ctrl + Up Arrow
-- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Guns Group 3 (Set Guns Ballistics) - Right Ctrl + Right Arrow
-- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Guns Group 4 (Set Guns Distortion) - Right Ctrl  +Down Arrow
-- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set EMPs - Right Alt + Right Ctrl + Left Arrow
-- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Quantum Jammers - Right Alt + Right Ctrl + Up Arrow
-- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set Quantum Snares/Pulse - Right Alt + Right Ctrl + Right Arrow
-- **New in 3.24.2** Vehicle Weapons - Weapon Presets - Set QIDs - Right Alt + Right Ctrl + Down Arrow
-- **New in 3.24.2** Vehicles - Multi Function Displays (MFDs) - MFD Movement Up - Left Alt + W
-- **New in 3.24.2** Vehicles - Multi Function Displays (MFDs) - MFD Movement Down - Left Alt + S
-- **New in 3.24.2** Vehicles - Multi Function Displays (MFDs) - MFD Movement Left - Left Alt + A
-- **New in 3.24.2** Vehicles - Multi Function Displays (MFDs) - MFD Movement Right - Left Alt + D
+- Vehicles Power - Weapons Set to Min (Hold) - F8
+- Vehicles Power - Engines Set to Min (Hold) - F8
+- Vehicles Power - Shields Set to Min (Hold) - F8
+- Vehicle Weapons - Weapon Presets - Set Guns Group 1 (Set Guns All) - Right Ctrl + Left Arrow
+- Vehicle Weapons - Weapon Presets - Set Guns Group 2 (Set Guns Lasers) - Right Ctrl + Up Arrow
+- Vehicle Weapons - Weapon Presets - Set Guns Group 3 (Set Guns Ballistics) - Right Ctrl + Right Arrow
+- Vehicle Weapons - Weapon Presets - Set Guns Group 4 (Set Guns Distortion) - Right Ctrl  +Down Arrow
+- Vehicle Weapons - Weapon Presets - Set EMPs - Right Alt + Right Ctrl + Left Arrow
+- Vehicle Weapons - Weapon Presets - Set Quantum Jammers - Right Alt + Right Ctrl + Up Arrow
+- Vehicle Weapons - Weapon Presets - Set Quantum Snares/Pulse - Right Alt + Right Ctrl + Right Arrow
+- Vehicle Weapons - Weapon Presets - Set QIDs - Right Alt + Right Ctrl + Down Arrow
+- Vehicles - Multi Function Displays (MFDs) - MFD Movement Up - Left Alt + W
+- Vehicles - Multi Function Displays (MFDs) - MFD Movement Down - Left Alt + S
+- Vehicles - Multi Function Displays (MFDs) - MFD Movement Left - Left Alt + A
+- Vehicles - Multi Function Displays (MFDs) - MFD Movement Right - Left Alt + D
 
 #### Joystick Gremlin Speed Limiter Keybindings
 Star Citizen has no useful keybinds that can reliably control the throttle. Mouse wheel commands could be used, but they do not produce consistent results. Instead, the full impulse, half impulse, and impulse 5-100 command rely on the CTRL-Zero, CTRL-Minus, and CTRL-Equals keyboard commands. CTRL-Zero sets the throttle to zero in Joystick Gremlin. Minus and Plus set the throttle in 5% increments down or up. Perhaps I'll set a config in ASMBL Init that will change this to using the cruise control system if you don't use Joystick Gremlin... some day. 
