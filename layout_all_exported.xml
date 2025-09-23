@@ -5,7 +5,6 @@
    <mouse instance="1"/>
    <joystick instance="1"/>
    <joystick instance="2"/>
-   <joystick instance="3"/>
   </devices>
   <categories>
    <category label="@ui_CCSeatGeneral"/>
@@ -22,12 +21,19 @@
    <category label="@ui_CGInteraction"/>
   </categories>
  </CustomisationUIHeader>
+ <deviceoptions name="vJoy Device  {BEAD1234-0000-0000-0000-504944564944}">
+  <option input="rotx" deadzone="0"/>
+  <option input="roty" deadzone="0"/>
+  <option input="rotz" deadzone="0"/>
+  <option input="slider2" deadzone="0"/>
+  <option input="y" deadzone="0"/>
+  <option input="x" deadzone="0"/>
+ </deviceoptions>
  <options type="keyboard" instance="1" Product="Keyboard  {6F1D2B61-D5A0-11CF-BFC7-444553540000}"/>
  <options type="joystick" instance="1" Product="vJoy Device  {BEAD1234-0000-0000-0000-504944564944}"/>
  <options type="joystick" instance="2" Product="vJoy Device  {BEAD1234-0000-0000-0000-504944564944}">
   <mgv_move invert="0"/>
  </options>
- <options type="joystick" instance="3" Product="Joystick (Razer Tartarus V2)  {022B1532-0000-0000-0000-504944564944}"/>
  <modifiers />
  <actionmap name="seat_general">
   <action name="v_enter_remote_turret_1">
@@ -199,18 +205,19 @@
    <rebind input="kb1_period"/>
    <rebind input="js2_button5"/>
   </action>
-  <action name="v_ifcs_speed_limiter_reset_scm">
-   <rebind input="kb1_rshift+0"/>
-   <rebind input="js2_button23"/>
+  <action name="v_flight_advanced_hud_on">
+   <rebind input="kb1_f3"/>
+  </action>
+  <action name="v_ifcs_speed_limiter_abs">
+   <rebind input="js1_z"/>
   </action>
   <action name="v_ifcs_throttle_swap_mode">
    <rebind input="js2_button44"/>
   </action>
-  <action name="v_ifcs_toggle_speed_limiter">
-   <rebind input="kb1_ralt+0"/>
-   <rebind input="js2_button2"/>
+  <action name="v_ifcs_vector_decoupling_off">
+   <rebind input="js2_button42"/>
   </action>
-  <action name="v_ifcs_toggle_vector_decoupling">
+  <action name="v_ifcs_vector_decoupling_on">
    <rebind input="js2_button12"/>
   </action>
   <action name="v_lock_rotation">
@@ -234,15 +241,6 @@
   </action>
   <action name="v_space_brake">
    <rebind input="js2_button22"/>
-  </action>
-  <action name="v_speed_range_abs">
-   <rebind input="js1_z"/>
-  </action>
-  <action name="v_speed_range_down">
-   <rebind input="kb1_rshift+minus"/>
-  </action>
-  <action name="v_speed_range_up">
-   <rebind input="kb1_rshift+equals"/>
   </action>
   <action name="v_strafe_down">
    <rebind input="js1_ "/>
@@ -285,14 +283,8 @@
   <action name="v_strafe_vertical">
    <rebind input="js2_rotz"/>
   </action>
-  <action name="v_target_match_vel">
-   <rebind input="js2_button24"/>
-  </action>
   <action name="v_toggle_landing_system">
    <rebind input="js1_ "/>
-  </action>
-  <action name="v_toggle_vtol">
-   <rebind input="js2_button33"/>
   </action>
   <action name="v_transform_deploy">
    <rebind input="kb1_slash"/>
@@ -394,9 +386,11 @@
  </actionmap>
  <actionmap name="spaceship_mining">
   <action name="v_decrease_mining_throttle">
+   <rebind input="kb1_mwheel_down"/>
    <rebind input="js2_button24"/>
   </action>
   <action name="v_increase_mining_throttle">
+   <rebind input="kb1_mwheel_up"/>
    <rebind input="js2_button23"/>
   </action>
   <action name="v_mining_use_consumable1">
@@ -409,7 +403,6 @@
    <rebind input="js1_button17"/>
   </action>
   <action name="v_toggle_mining_laser_type">
-   <rebind input="kb1_mouse2"/>
    <rebind input="js1_button3"/>
   </action>
  </actionmap>
@@ -657,6 +650,9 @@
   <action name="consume">
    <rebind input="kb1_mouse1"/>
   </action>
+  <action name="drop">
+   <rebind input="kb1_f3"/>
+  </action>
   <action name="fixed_speed_decrement">
    <rebind input="kb1_mwheel_down"/>
   </action>
@@ -791,23 +787,14 @@
   <action name="eva_brake">
    <rebind input="js2_button22"/>
   </action>
-  <action name="eva_roll">
-   <rebind input="js1_x"/>
-  </action>
   <action name="eva_strafe_lateral">
-   <rebind input="js2_x"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="eva_strafe_longitudinal">
-   <rebind input="js2_y"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="eva_strafe_vertical">
-   <rebind input="js2_rotz"/>
-  </action>
-  <action name="eva_view_pitch">
-   <rebind input="js1_y"/>
-  </action>
-  <action name="eva_view_yaw">
-   <rebind input="js1_rotz"/>
+   <rebind input="js2_ "/>
   </action>
  </actionmap>
  <actionmap name="vehicle_general">

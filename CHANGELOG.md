@@ -16,6 +16,21 @@ Planned upgrade notes
 -
 
 --->
+## [a4.3.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.3.1.zip) - 2025-09-08
+ 
+Planned upgrade notes
+ 
+### Added
+-  Function - ASMBLMouseReset - Moves mouse to the middle of the screen. Useful when the mouse just needs to be moved a little so that a click can be registered. 
+
+### Changed
+- Prepare for takeoff - Remove lights toggle as this can be set in the Options now. 
+- Decoupled - changed to "C"
+
+### Fixed
+- Full Maintenence - Mobiglass screen is bugged and offset. Updated button targets. Also tuned timing and mouse clicking. 
+- Hail ATC - Updated to use left ALT instead of right ALT. Also added two extra ALT-N key presses for a total of three as ATC often does not answer after only 1 or 2 requests.
+
 [a4.1.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.1.1.zip) - 2025-05-01
  
 Planned upgrade notes
