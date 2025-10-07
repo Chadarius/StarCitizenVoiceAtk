@@ -16,6 +16,22 @@ Planned upgrade notes
 -
 
 --->
+## [a4.3.1.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.3.1.1.zip) - 2025-09-25
+ 
+Planned upgrade notes
+ 
+### Added
+- Brought back the Power Management configuration for Ships. "Configure Power Management Yes/No" - Will turn off power management resets used in mult-function macros. Can be added as a variable to Ship Configuration commands or used through this voice command. The variable MUST be set to True to allow the reset power advanced to work. 
+
+### Changed
+- Set complex macros to pay attention to power config true/false
+- Set direct calls to power macros to work regardless of power config true/false
+
+### Fixed
+- Moved the "Engines On" command to the start of the "Cast Off" command, so that if power management is being used, it won't mess up the power settings. 
+- Retract wings - Fixed from left shift-/ to right shift-/. However the game seems to be bugged and these keybinds are not working. Changed the "let's get under way" to use "cycle wings" instead.
+- Found work around for NAV map search bar issues. Double clicking seems to fix the issue with activating the text search field. 
+
 ## [a4.3.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.3.1.zip) - 2025-09-08
  
 Planned upgrade notes
