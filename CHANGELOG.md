@@ -16,6 +16,13 @@ Planned upgrade notes
 -
 
 --->
+## [a4.3.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.3.2.zip) - 2025-10-28
+ 
+Planned upgrade notes
+ 
+### Fixed
+- Updated the "Refuel" macro with new target for the quantum fuel button
+
 ## [a4.3.1.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.3.1.1.zip) - 2025-09-25
  
 Planned upgrade notes
