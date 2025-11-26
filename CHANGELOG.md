@@ -16,6 +16,20 @@ Planned upgrade notes
 -
 
 --->
+## [a4.4.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.4.0.zip) - 2025-11-26
+ 
+Planned upgrade notes
+ 
+### Added
+-  "Configure Power Management Yes/No" - Will turn off power management resets used in mult-function macros. Can be added as a variable to Ship Configuration commands or used through this voice command. The variable MUST be set to True to allow the reset power advanced to work. 
+-  Added Nyx Gateway and Levski navigation commands. 
+
+### Changed
+-  reset power advanced - If the pwrmgmt variable is false or not set, power will not be touched. If the pwrmgmt varialble is set to True, then it will reset power and take into account if ballistics are used to favor Shields in the power configuration. Most ships can be equiped and configure to have max power in weapons, engines, and shields now so the advanced power management settings don't need to be used in all situations. 
+
+### Fixed
+- Fixed issue with "Set decoys to " command where the reset command needed to wait before it finished. 
+
 ## [a4.3.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.3.2.zip) - 2025-10-28
  
 Planned upgrade notes
