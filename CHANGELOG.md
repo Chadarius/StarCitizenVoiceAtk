@@ -16,6 +16,17 @@ Planned upgrade notes
 -
 
 --->
+## [A4.5.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/A4.5.0.zip) - 2025-12-23
+ 
+Planned upgrade notes
+ 
+### Changed
+-  Gear Down - Changed impulse speed from 5 to 10.
+
+### Fixed
+-  Nav Map - Updated the macro to use mouse wheel back to zoom out on the Nav Map, which CIG monumentally screwed up in 4.5. 
+- ASMBLNav - Updated the macro to use the Nav Map macro to open the broken Nav Map properly 
+
 ## [a4.4.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.4.0.zip) - 2025-11-26
  
 Planned upgrade notes
