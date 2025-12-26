@@ -16,6 +16,13 @@ Planned upgrade notes
 -
 
 --->
+## [a4.5.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.5.1.zip) - 2025-12-26
+ 
+Planned upgrade notes
+ 
+### Fixed
+- Nav Map - Fixed resolution independent settings for the updated Nav Map macros. 
+
 ## [A4.5.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/A4.5.0.zip) - 2025-12-23
  
 Planned upgrade notes
