@@ -16,6 +16,13 @@ Planned upgrade notes
 -
 
 --->
+## [a4.5.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.5.2.zip) - 2026-01-05
+ 
+Planned upgrade notes
+ 
+### Fixed
+- Fixed the Repair, Restock, and Refuel macros. CIG screwed up the Mobiglass buttons so I had to retarget them. What a wreck!
++
 ## [a4.5.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.5.1.zip) - 2025-12-26
  
 Planned upgrade notes
