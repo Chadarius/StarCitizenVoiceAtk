@@ -16,6 +16,13 @@ Planned upgrade notes
 -
 
 --->
+## [a4.6.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.6.0.zip) - 2026-01-28
+ 
+Planned upgrade notes
+ 
+### Added
+-  "LAMP/Night Vision" - Activates the Light Amplification on the cockpit window.  
+
 ## [a4.5.2](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.5.2.zip) - 2026-01-05
  
 Planned upgrade notes

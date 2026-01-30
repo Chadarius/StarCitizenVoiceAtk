@@ -1,6 +1,7 @@
 # StarCitizenVoiceAtk for 4.0.1 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
+  - **New! In 4.6** - LAMP/Night Vision - toggles ship based night vision filter. Default keybind is Right-ALT-L. This replaces the reshade Night Vision macro.
   - **NEW! In 4.1.1** - Medic - uses right side equiped multi-tool to heal. 
   - **NEW! In 4.0.2** - Lock S-foils in attack position and Stow S-foils added for deploy/retract wings
   - **NEW! In 4.0.1** - Fixes for Mobiglass mouse macros.
@@ -196,7 +197,7 @@ NewMouseY = AsmblMouseY/AsmblOrgResY*AsmblNewResY + AsmblNewOffsetY
 
 Good luck! We are all probably going to need it! 
 
-## reShade
+## reShade - Deprecated Using in game LAMP
 [I'm using Fist and Jawa's reShade tutorial to setup reShade. Go check it out here](https://youtu.be/Y21B1t6AGHU). Once their setup is done come back here and setup the following keyboard shortcuts for reShade. Note: reShade will only work with DirectX 11!
 
 ### Settings Tab Shortcut Settings
