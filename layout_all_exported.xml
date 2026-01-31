@@ -283,6 +283,9 @@
   <action name="v_strafe_vertical">
    <rebind input="js2_rotz"/>
   </action>
+  <action name="v_toggle_jump_request">
+   <rebind input="js1_button1"/>
+  </action>
   <action name="v_toggle_landing_system">
    <rebind input="js1_ "/>
   </action>
@@ -441,17 +444,11 @@
   </action>
  </actionmap>
  <actionmap name="turret_advanced">
-  <action name="turret_change_firemode">
-   <rebind input="js1_button17"/>
-  </action>
   <action name="turret_recenter">
    <rebind input="js1_button16"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_weapons">
-  <action name="v_weapon_gimbal_mode_cycle_all">
-   <rebind input="js2_button3"/>
-  </action>
   <action name="v_weapon_pip_fade_off">
    <rebind input="kb1_f3"/>
   </action>
@@ -663,16 +660,10 @@
    <rebind input="js1_button3"/>
   </action>
   <action name="gp_movex">
-   <rebind input="js2_x"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="gp_movey">
-   <rebind input="js2_y"/>
-  </action>
-  <action name="gp_rotatepitch">
-   <rebind input="js1_y"/>
-  </action>
-  <action name="gp_rotateyaw">
-   <rebind input="js1_rotz"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="hmd_rotatepitch">
    <rebind input="kb1_HMD_Pitch"/>
