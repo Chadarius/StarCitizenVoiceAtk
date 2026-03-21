@@ -16,6 +16,41 @@ Planned upgrade notes
 -
 
 --->
+## [a4.7.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.7.0.zip) - YYYY-MM-DD
+ 
+Planned upgrade notes
+ 
+### Added
+-  "Configure Virtual Reality (VR) Yes/No" - Sets virtreal variable to yes or no. Empty by default, which is also assumed to be no. The virtreal variable is used for opening and closing the Mobiglass to also toggle Theater Mode on or off as needed. 
+
+### Changed
+-  "Nav Map" - Added VR support
+-  "ASMBLNav" - Added VR support
+-  "Close Mobiglass" - Added VR support
+-  "Clear Route" - Added VR support
+-  "Configuration Status" - Added line to say what virtreal variable is set to.
+-  "Open Comms" - Added VR support
+-  "Damage Report" - Added VR support
+-  "Full Maintenance" - Added VR support
+-  "Open Reputation" - Added VR support
+-  "Open Wallet" - Added VR support
+-  "Open Assets" - Added VR support
+-  "Open Contracts" - Added VR support
+-  "Open Journal" - Added VR support
+
+## [a4.6.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.6.1.zip) - YYYY-MM-DD
+ 
+Planned upgrade notes
+ 
+### Added
+-   
+
+### Changed
+-  Changed "Fire Space Brake 2-20" to be able to use "stand by to" "stand by for" or "on my mark"
+
+### Fixed
+-
+
 ## [a4.6.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.6.0.zip) - 2026-01-28
  
 Planned upgrade notes
