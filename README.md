@@ -42,12 +42,12 @@ My custom VoiceAttack macros for Star Citizen. What does it do?
 
 [Install Voice Attack](https://voiceattack.com/)
 
-[Install the ASTRA HCS Voice Pack](https://www.hcsvoicepacks.com/products/a-s-t-r-a-star-citizen?variant=20772219268) No HCS VoicePack Required. When HCS updates their voice packs, I will also update the ASTRA profile. Eventually I will make the ASMBL Free and ASMBL Astra profiles interchangable. 
+[Optional: Install an HCS Voice Pack](https://www.hcsvoicepacks.com/collections/star-citizen) No HCS VoicePack Required. However my profile works alongside HCS Voicepacks with a few changes that are documented below.  
 
-**New** Improve your Text to Speech (TTS) with Cortana. Enable the "Cortana" TTS profile by following [these instructions](https://github.com/watermarkhu/enable-microsoft-eva-tts/tree/master). 
+Improve your Text to Speech (TTS) with Cortana. Enable the "Cortana" TTS profile by following [these instructions](https://github.com/watermarkhu/enable-microsoft-eva-tts/tree/master). 
 
 ## The Basics
-If you have your own VoiceAttack macros, make sure you backup everything before you mess with this stuff! :)
+If you have your own VoiceAttack macros, make sure you backup everything before you mess with this stuff!
 
 ### Download All the Commands
 
