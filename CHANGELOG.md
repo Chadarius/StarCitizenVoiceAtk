@@ -16,7 +16,7 @@ Planned upgrade notes
 -
 
 --->
-## [a4.7.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.7.0.zip) - YYYY-MM-DD
+## [a4.7.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.7.0.zip) - 2026-03-21
  
 Planned upgrade notes
  
