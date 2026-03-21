@@ -1,4 +1,4 @@
-# StarCitizenVoiceAtk for 4.0.1 - ASMBL Free with HCS Support
+# StarCitizenVoiceAtk for 4.7 - ASMBL Free with HCS Support
 My custom VoiceAttack macros for Star Citizen. What does it do?
 - ASMBL Free
   - **New! In 4.7** - "Configure VR Yes/No" - When set to Yes this will toggle on theater mode for VR when the system needs to use resolution independent mouse macros. This is primarly for Mobiglass interactions. 
