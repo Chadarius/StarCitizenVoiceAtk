@@ -16,6 +16,14 @@ Planned upgrade notes
 -
 
 --->
+## [a4.7.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.7.1.zip) - YYYY-MM-DD
+ 
+Planned upgrade notes
+ 
+### Fixed
+-  "Nav Map" - Removed zoom out fix because CIG fixed the map zoom issue in game. 
+
+
 ## [a4.7.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.7.0.zip) - 2026-03-21
  
 Planned upgrade notes
