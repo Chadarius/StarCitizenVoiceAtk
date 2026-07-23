@@ -16,6 +16,30 @@ Planned upgrade notes
 -
 
 --->
+## [a4.9.0](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.9.0.zip) - 2026-07-24
+ 
+Planned upgrade notes
+ 
+### Added
+- Added new jump points in Nyx
+    - People's Service Station Alpha
+    - People's Service Station Delta
+    - People's Service Station Lamda
+    - People's Service Station Theta
+    - Transit Point Glacium Alpha
+    - Transit Point Glacium Bravo
+    - Transit Point Glacium Charlie
+    - QV Breaker Station BRK-425
+    - QV Breaker Station BRK-127
+    - QV Breaker Station BRK-546
+    - QV Breaker Station BRK-320
+    - QV Breaker Station BRK-204
+    - Nyx I
+    - Nyx II
+    - Nyx III
+    - Pyro Nyx Gateway 
+
+
 ## [a4.7.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.7.1.zip) - 2026-03-26
  
 Planned upgrade notes
