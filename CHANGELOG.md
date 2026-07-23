@@ -38,7 +38,8 @@ Planned upgrade notes
     - Nyx II
     - Nyx III
     - Pyro Nyx Gateway 
-
+### Changed
+- Updated "Full Maintenance" macro to do fuel first, then pause 11 seconds. Then it will continue with Repair, with an 11 second pause, and then finally Rearm. This is due to changes that CIG has made with blocking repair and rearm during other actions. 
 
 ## [a4.7.1](https://github.com/Chadarius/StarCitizenVoiceAtk/archive/refs/tags/a4.7.1.zip) - 2026-03-26
  
