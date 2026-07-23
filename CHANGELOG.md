@@ -24,7 +24,7 @@ Planned upgrade notes
 - Added new jump points in Nyx
     - People's Service Station Alpha
     - People's Service Station Delta
-    - People's Service Station Lamda
+    - People's Service Station Lambda
     - People's Service Station Theta
     - Transit Point Glacium Alpha
     - Transit Point Glacium Bravo
